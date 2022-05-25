@@ -14,6 +14,9 @@
 		3D574798283D7FC40029DBAB /* Upcuisine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D574796283D7FC40029DBAB /* Upcuisine.xcdatamodeld */; };
 		3D57479A283D7FC50029DBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D574799283D7FC50029DBAB /* Assets.xcassets */; };
 		3D57479D283D7FC50029DBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D57479B283D7FC50029DBAB /* LaunchScreen.storyboard */; };
+		3D5747C2283DA7D80029DBAB /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5747C1283DA7D80029DBAB /* Foods.swift */; };
+		3D5747C4283DA8390029DBAB /* FoodsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5747C3283DA8390029DBAB /* FoodsRequest.swift */; };
+		3D5747C7283DAFBE0029DBAB /* Rock_Salt in Resources */ = {isa = PBXBuildFile; fileRef = 3D5747C6283DAFBE0029DBAB /* Rock_Salt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		3D574799283D7FC50029DBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D57479C283D7FC50029DBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D57479E283D7FC50029DBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D5747C1283DA7D80029DBAB /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
+		3D5747C3283DA8390029DBAB /* FoodsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsRequest.swift; sourceTree = "<group>"; };
+		3D5747C6283DAFBE0029DBAB /* Rock_Salt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rock_Salt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,12 @@
 		3D57478C283D7FC40029DBAB /* Upcuisine */ = {
 			isa = PBXGroup;
 			children = (
+				3D5747C5283DAFA00029DBAB /* fonts */,
+				3D5747AA283D974D0029DBAB /* entity */,
+				3D5747A9283D851B0029DBAB /* cartDetail-module */,
+				3D5747A8283D850A0029DBAB /* cart-module */,
+				3D5747A7283D849F0029DBAB /* foodDetail-module */,
+				3D5747A5283D83880029DBAB /* homepage-module */,
 				3D57478D283D7FC40029DBAB /* AppDelegate.swift */,
 				3D57478F283D7FC40029DBAB /* SceneDelegate.swift */,
 				3D574791283D7FC40029DBAB /* ViewController.swift */,
@@ -68,6 +80,211 @@
 				3D574796283D7FC40029DBAB /* Upcuisine.xcdatamodeld */,
 			);
 			path = Upcuisine;
+			sourceTree = "<group>";
+		};
+		3D5747A5283D83880029DBAB /* homepage-module */ = {
+			isa = PBXGroup;
+			children = (
+				3D5747AF283D98380029DBAB /* router */,
+				3D5747AE283D98320029DBAB /* view */,
+				3D5747AD283D98260029DBAB /* presenter */,
+				3D5747AC283D98150029DBAB /* interactor */,
+				3D5747AB283D98060029DBAB /* protocols */,
+			);
+			path = "homepage-module";
+			sourceTree = "<group>";
+		};
+		3D5747A7283D849F0029DBAB /* foodDetail-module */ = {
+			isa = PBXGroup;
+			children = (
+				3D5747B4283DA3950029DBAB /* router */,
+				3D5747B3283DA38E0029DBAB /* view */,
+				3D5747B2283DA3850029DBAB /* presenter */,
+				3D5747B1283DA37B0029DBAB /* interactor */,
+				3D5747B0283DA36E0029DBAB /* protocols */,
+			);
+			path = "foodDetail-module";
+			sourceTree = "<group>";
+		};
+		3D5747A8283D850A0029DBAB /* cart-module */ = {
+			isa = PBXGroup;
+			children = (
+				3D5747B9283DA3DB0029DBAB /* router */,
+				3D5747B8283DA3D40029DBAB /* view */,
+				3D5747B7283DA3CD0029DBAB /* presenter */,
+				3D5747B6283DA3C10029DBAB /* interactor */,
+				3D5747B5283DA3B60029DBAB /* protocols */,
+			);
+			path = "cart-module";
+			sourceTree = "<group>";
+		};
+		3D5747A9283D851B0029DBAB /* cartDetail-module */ = {
+			isa = PBXGroup;
+			children = (
+				3D5747BE283DA40B0029DBAB /* router */,
+				3D5747BD283DA4050029DBAB /* view */,
+				3D5747BC283DA3FB0029DBAB /* presenter */,
+				3D5747BB283DA3EE0029DBAB /* interactor */,
+				3D5747BA283DA3E50029DBAB /* protocols */,
+			);
+			path = "cartDetail-module";
+			sourceTree = "<group>";
+		};
+		3D5747AA283D974D0029DBAB /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				3D5747C1283DA7D80029DBAB /* Foods.swift */,
+				3D5747C3283DA8390029DBAB /* FoodsRequest.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		3D5747AB283D98060029DBAB /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3D5747AC283D98150029DBAB /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		3D5747AD283D98260029DBAB /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3D5747AE283D98320029DBAB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3D5747AF283D98380029DBAB /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3D5747B0283DA36E0029DBAB /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3D5747B1283DA37B0029DBAB /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		3D5747B2283DA3850029DBAB /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3D5747B3283DA38E0029DBAB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3D5747B4283DA3950029DBAB /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3D5747B5283DA3B60029DBAB /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3D5747B6283DA3C10029DBAB /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		3D5747B7283DA3CD0029DBAB /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3D5747B8283DA3D40029DBAB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3D5747B9283DA3DB0029DBAB /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3D5747BA283DA3E50029DBAB /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		3D5747BB283DA3EE0029DBAB /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		3D5747BC283DA3FB0029DBAB /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3D5747BD283DA4050029DBAB /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3D5747BE283DA40B0029DBAB /* router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3D5747C5283DAFA00029DBAB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D5747C6283DAFBE0029DBAB /* Rock_Salt */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +348,7 @@
 				3D57479D283D7FC50029DBAB /* LaunchScreen.storyboard in Resources */,
 				3D57479A283D7FC50029DBAB /* Assets.xcassets in Resources */,
 				3D574795283D7FC40029DBAB /* Main.storyboard in Resources */,
+				3D5747C7283DAFBE0029DBAB /* Rock_Salt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5747C2283DA7D80029DBAB /* Foods.swift in Sources */,
 				3D574792283D7FC40029DBAB /* ViewController.swift in Sources */,
 				3D57478E283D7FC40029DBAB /* AppDelegate.swift in Sources */,
+				3D5747C4283DA8390029DBAB /* FoodsRequest.swift in Sources */,
 				3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */,
 				3D574798283D7FC40029DBAB /* Upcuisine.xcdatamodeld in Sources */,
 			);

@@ -1,0 +1,12 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "symbols" : [
+    {
+      "filename" : "restaurant_menu-restaurant_menu_symbol.svg",
+      "idiom" : "universal"
+    }
+  ]
+}

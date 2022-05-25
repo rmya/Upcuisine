@@ -1,0 +1,12 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "symbols" : [
+    {
+      "filename" : "credit_card-credit_card_symbol.svg",
+      "idiom" : "universal"
+    }
+  ]
+}
