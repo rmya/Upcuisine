@@ -9,4 +9,5 @@ import Foundation
 
 class FoodRequest : Codable {
     var yemekler : [Foods]?
+    var success : Int?
 }

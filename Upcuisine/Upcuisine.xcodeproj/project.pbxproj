@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2DC1D0283FAA6200BE0B15 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1CF283FAA6200BE0B15 /* FoodDetailViewController.swift */; };
+		3D2DC1D2283FAAD000BE0B15 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1D1283FAAD000BE0B15 /* CartViewController.swift */; };
+		3D2DC1DE283FC26600BE0B15 /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1DD283FC26600BE0B15 /* FoodsViewController.swift */; };
+		3D2DC1E2283FC2D400BE0B15 /* FoodsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1E1283FC2D400BE0B15 /* FoodsProtocol.swift */; };
+		3D2DC1E4283FC2E400BE0B15 /* FoodsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1E3283FC2E400BE0B15 /* FoodsInteractor.swift */; };
+		3D2DC1E6283FC2F400BE0B15 /* FoodsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1E5283FC2F400BE0B15 /* FoodsPresenter.swift */; };
+		3D2DC1E8283FC30200BE0B15 /* FoodsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1E7283FC30200BE0B15 /* FoodsRouter.swift */; };
+		3D2DC1EA283FC32100BE0B15 /* FoodDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1E9283FC32100BE0B15 /* FoodDetailProtocols.swift */; };
+		3D2DC1EC283FC33200BE0B15 /* FoodDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1EB283FC33200BE0B15 /* FoodDetailInteractor.swift */; };
+		3D2DC1EE283FC34100BE0B15 /* FoodDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1ED283FC34100BE0B15 /* FoodDetailPresenter.swift */; };
+		3D2DC1F0283FC34D00BE0B15 /* FoodDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1EF283FC34D00BE0B15 /* FoodDetailRouter.swift */; };
+		3D2DC1F4283FC37C00BE0B15 /* CartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1F3283FC37C00BE0B15 /* CartInteractor.swift */; };
+		3D2DC1F6283FC39200BE0B15 /* CartProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1F5283FC39200BE0B15 /* CartProtocol.swift */; };
+		3D2DC1F8283FC39D00BE0B15 /* CartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1F7283FC39D00BE0B15 /* CartPresenter.swift */; };
+		3D2DC1FA283FC3AD00BE0B15 /* CartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1F9283FC3AD00BE0B15 /* CartRouter.swift */; };
 		3D57478E283D7FC40029DBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478D283D7FC40029DBAB /* AppDelegate.swift */; };
 		3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478F283D7FC40029DBAB /* SceneDelegate.swift */; };
 		3D574792283D7FC40029DBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D574791283D7FC40029DBAB /* ViewController.swift */; };
@@ -20,6 +35,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D2DC1CF283FAA6200BE0B15 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		3D2DC1D1283FAAD000BE0B15 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		3D2DC1DD283FC26600BE0B15 /* FoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
+		3D2DC1E1283FC2D400BE0B15 /* FoodsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsProtocol.swift; sourceTree = "<group>"; };
+		3D2DC1E3283FC2E400BE0B15 /* FoodsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsInteractor.swift; sourceTree = "<group>"; };
+		3D2DC1E5283FC2F400BE0B15 /* FoodsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsPresenter.swift; sourceTree = "<group>"; };
+		3D2DC1E7283FC30200BE0B15 /* FoodsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsRouter.swift; sourceTree = "<group>"; };
+		3D2DC1E9283FC32100BE0B15 /* FoodDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailProtocols.swift; sourceTree = "<group>"; };
+		3D2DC1EB283FC33200BE0B15 /* FoodDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailInteractor.swift; sourceTree = "<group>"; };
+		3D2DC1ED283FC34100BE0B15 /* FoodDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailPresenter.swift; sourceTree = "<group>"; };
+		3D2DC1EF283FC34D00BE0B15 /* FoodDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailRouter.swift; sourceTree = "<group>"; };
+		3D2DC1F3283FC37C00BE0B15 /* CartInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartInteractor.swift; sourceTree = "<group>"; };
+		3D2DC1F5283FC39200BE0B15 /* CartProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProtocol.swift; sourceTree = "<group>"; };
+		3D2DC1F7283FC39D00BE0B15 /* CartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPresenter.swift; sourceTree = "<group>"; };
+		3D2DC1F9283FC3AD00BE0B15 /* CartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRouter.swift; sourceTree = "<group>"; };
 		3D57478A283D7FC40029DBAB /* Upcuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upcuisine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D57478D283D7FC40029DBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D57478F283D7FC40029DBAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,10 +96,9 @@
 			children = (
 				3D5747C5283DAFA00029DBAB /* fonts */,
 				3D5747AA283D974D0029DBAB /* entity */,
-				3D5747A9283D851B0029DBAB /* cartDetail-module */,
 				3D5747A8283D850A0029DBAB /* cart-module */,
 				3D5747A7283D849F0029DBAB /* foodDetail-module */,
-				3D5747A5283D83880029DBAB /* homepage-module */,
+				3D5747A5283D83880029DBAB /* foods-module */,
 				3D57478D283D7FC40029DBAB /* AppDelegate.swift */,
 				3D57478F283D7FC40029DBAB /* SceneDelegate.swift */,
 				3D574791283D7FC40029DBAB /* ViewController.swift */,
@@ -82,7 +111,7 @@
 			path = Upcuisine;
 			sourceTree = "<group>";
 		};
-		3D5747A5283D83880029DBAB /* homepage-module */ = {
+		3D5747A5283D83880029DBAB /* foods-module */ = {
 			isa = PBXGroup;
 			children = (
 				3D5747AF283D98380029DBAB /* router */,
@@ -91,7 +120,7 @@
 				3D5747AC283D98150029DBAB /* interactor */,
 				3D5747AB283D98060029DBAB /* protocols */,
 			);
-			path = "homepage-module";
+			path = "foods-module";
 			sourceTree = "<group>";
 		};
 		3D5747A7283D849F0029DBAB /* foodDetail-module */ = {
@@ -118,18 +147,6 @@
 			path = "cart-module";
 			sourceTree = "<group>";
 		};
-		3D5747A9283D851B0029DBAB /* cartDetail-module */ = {
-			isa = PBXGroup;
-			children = (
-				3D5747BE283DA40B0029DBAB /* router */,
-				3D5747BD283DA4050029DBAB /* view */,
-				3D5747BC283DA3FB0029DBAB /* presenter */,
-				3D5747BB283DA3EE0029DBAB /* interactor */,
-				3D5747BA283DA3E50029DBAB /* protocols */,
-			);
-			path = "cartDetail-module";
-			sourceTree = "<group>";
-		};
 		3D5747AA283D974D0029DBAB /* entity */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +159,7 @@
 		3D5747AB283D98060029DBAB /* protocols */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1E1283FC2D400BE0B15 /* FoodsProtocol.swift */,
 			);
 			path = protocols;
 			sourceTree = "<group>";
@@ -149,6 +167,7 @@
 		3D5747AC283D98150029DBAB /* interactor */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1E3283FC2E400BE0B15 /* FoodsInteractor.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -156,6 +175,7 @@
 		3D5747AD283D98260029DBAB /* presenter */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1E5283FC2F400BE0B15 /* FoodsPresenter.swift */,
 			);
 			path = presenter;
 			sourceTree = "<group>";
@@ -163,6 +183,7 @@
 		3D5747AE283D98320029DBAB /* view */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1DD283FC26600BE0B15 /* FoodsViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -170,6 +191,7 @@
 		3D5747AF283D98380029DBAB /* router */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1E7283FC30200BE0B15 /* FoodsRouter.swift */,
 			);
 			path = router;
 			sourceTree = "<group>";
@@ -177,6 +199,7 @@
 		3D5747B0283DA36E0029DBAB /* protocols */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1E9283FC32100BE0B15 /* FoodDetailProtocols.swift */,
 			);
 			path = protocols;
 			sourceTree = "<group>";
@@ -184,6 +207,7 @@
 		3D5747B1283DA37B0029DBAB /* interactor */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1EB283FC33200BE0B15 /* FoodDetailInteractor.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -191,6 +215,7 @@
 		3D5747B2283DA3850029DBAB /* presenter */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1ED283FC34100BE0B15 /* FoodDetailPresenter.swift */,
 			);
 			path = presenter;
 			sourceTree = "<group>";
@@ -198,6 +223,7 @@
 		3D5747B3283DA38E0029DBAB /* view */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1CF283FAA6200BE0B15 /* FoodDetailViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -205,6 +231,7 @@
 		3D5747B4283DA3950029DBAB /* router */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1EF283FC34D00BE0B15 /* FoodDetailRouter.swift */,
 			);
 			path = router;
 			sourceTree = "<group>";
@@ -212,6 +239,7 @@
 		3D5747B5283DA3B60029DBAB /* protocols */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1F5283FC39200BE0B15 /* CartProtocol.swift */,
 			);
 			path = protocols;
 			sourceTree = "<group>";
@@ -219,6 +247,7 @@
 		3D5747B6283DA3C10029DBAB /* interactor */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1F3283FC37C00BE0B15 /* CartInteractor.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -226,6 +255,7 @@
 		3D5747B7283DA3CD0029DBAB /* presenter */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1F7283FC39D00BE0B15 /* CartPresenter.swift */,
 			);
 			path = presenter;
 			sourceTree = "<group>";
@@ -233,6 +263,7 @@
 		3D5747B8283DA3D40029DBAB /* view */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC1D1283FAAD000BE0B15 /* CartViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -240,41 +271,7 @@
 		3D5747B9283DA3DB0029DBAB /* router */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = router;
-			sourceTree = "<group>";
-		};
-		3D5747BA283DA3E50029DBAB /* protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = protocols;
-			sourceTree = "<group>";
-		};
-		3D5747BB283DA3EE0029DBAB /* interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = interactor;
-			sourceTree = "<group>";
-		};
-		3D5747BC283DA3FB0029DBAB /* presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = presenter;
-			sourceTree = "<group>";
-		};
-		3D5747BD283DA4050029DBAB /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		3D5747BE283DA40B0029DBAB /* router */ = {
-			isa = PBXGroup;
-			children = (
+				3D2DC1F9283FC3AD00BE0B15 /* CartRouter.swift */,
 			);
 			path = router;
 			sourceTree = "<group>";
@@ -360,11 +357,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D5747C2283DA7D80029DBAB /* Foods.swift in Sources */,
+				3D2DC1F6283FC39200BE0B15 /* CartProtocol.swift in Sources */,
+				3D2DC1E2283FC2D400BE0B15 /* FoodsProtocol.swift in Sources */,
+				3D2DC1E6283FC2F400BE0B15 /* FoodsPresenter.swift in Sources */,
 				3D574792283D7FC40029DBAB /* ViewController.swift in Sources */,
+				3D2DC1D0283FAA6200BE0B15 /* FoodDetailViewController.swift in Sources */,
 				3D57478E283D7FC40029DBAB /* AppDelegate.swift in Sources */,
+				3D2DC1F4283FC37C00BE0B15 /* CartInteractor.swift in Sources */,
+				3D2DC1EC283FC33200BE0B15 /* FoodDetailInteractor.swift in Sources */,
+				3D2DC1EE283FC34100BE0B15 /* FoodDetailPresenter.swift in Sources */,
+				3D2DC1E4283FC2E400BE0B15 /* FoodsInteractor.swift in Sources */,
+				3D2DC1FA283FC3AD00BE0B15 /* CartRouter.swift in Sources */,
 				3D5747C4283DA8390029DBAB /* FoodsRequest.swift in Sources */,
+				3D2DC1DE283FC26600BE0B15 /* FoodsViewController.swift in Sources */,
 				3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */,
+				3D2DC1E8283FC30200BE0B15 /* FoodsRouter.swift in Sources */,
+				3D2DC1D2283FAAD000BE0B15 /* CartViewController.swift in Sources */,
+				3D2DC1F8283FC39D00BE0B15 /* CartPresenter.swift in Sources */,
+				3D2DC1EA283FC32100BE0B15 /* FoodDetailProtocols.swift in Sources */,
 				3D574798283D7FC40029DBAB /* Upcuisine.xcdatamodeld in Sources */,
+				3D2DC1F0283FC34D00BE0B15 /* FoodDetailRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

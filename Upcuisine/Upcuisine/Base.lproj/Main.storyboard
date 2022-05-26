@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9RF-5E-2yf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -9,10 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Cart View Controller-->
         <scene sceneID="rTc-Il-aS3">
             <objects>
-                <viewController id="kbO-Zl-pRa" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YYn-Gr-tz3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="kbO-Zl-pRa" customClass="CartViewController" customModule="Upcuisine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XUa-AD-i8g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,29 +22,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="tmA-57-rgs"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YYn-Gr-tz3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1903" y="1156"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="VYM-KK-Tnf">
-            <objects>
-                <viewController id="zut-Mc-2kC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7MG-cc-afg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="nXf-Re-Y6a"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sX9-2P-qdK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2712" y="1156"/>
-        </scene>
-        <!--View Controller-->
+        <!--Foods View Controller-->
         <scene sceneID="h44-3s-cvH">
             <objects>
-                <viewController id="2Mk-ll-hjR" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cqq-p1-XAo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="2Mk-ll-hjR" customClass="FoodsViewController" customModule="Upcuisine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SiE-eK-WbM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,14 +38,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="kzT-IG-92f"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cqq-p1-XAo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1902.8985507246377" y="450.66964285714283"/>
         </scene>
-        <!--View Controller-->
+        <!--Food Detail View Controller-->
         <scene sceneID="rEz-NO-Oa1">
             <objects>
-                <viewController id="9D8-8K-8SZ" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JUa-Wb-Wb9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="9D8-8K-8SZ" customClass="FoodDetailViewController" customModule="Upcuisine" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z5S-RG-k94">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -67,33 +53,32 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JUa-Wb-Wb9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2712" y="437"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="EsI-We-GJo">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="isg-NE-6W1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController id="9RF-5E-2yf" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HbU-Nj-orq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" name="secondaryLight"/>
                     </tabBar>
                     <connections>
                         <segue destination="Xml-8I-xHZ" kind="relationship" relationship="viewControllers" id="NRy-26-EMF"/>
                         <segue destination="eRg-ae-ige" kind="relationship" relationship="viewControllers" id="NwW-Z6-gGU"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="isg-NE-6W1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="719"/>
         </scene>
-        <!--Item 1-->
+        <!--Foods-->
         <scene sceneID="gU1-zl-g0n">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M6J-Va-nuQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xml-8I-xHZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" image="restaurant_menu" id="MhM-Eh-3Rl">
+                    <tabBarItem key="tabBarItem" title="Foods" image="restaurant_menu" id="MhM-Eh-3Rl">
                         <color key="badgeColor" name="primaryDark"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -106,15 +91,15 @@
                         <segue destination="2Mk-ll-hjR" kind="relationship" relationship="rootViewController" id="eX3-um-gyJ"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="M6J-Va-nuQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="992.75362318840587" y="450.66964285714283"/>
         </scene>
-        <!--Item 2-->
+        <!--Cart-->
         <scene sceneID="DLg-A5-6rw">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1H1-ML-ftc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eRg-ae-ige" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" image="cart" catalog="system" id="z3q-Sf-gWn">
+                    <tabBarItem key="tabBarItem" title="Cart" image="cart" catalog="system" id="z3q-Sf-gWn">
                         <color key="badgeColor" name="primaryDark"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -127,7 +112,6 @@
                         <segue destination="kbO-Zl-pRa" kind="relationship" relationship="rootViewController" id="Mh6-QK-FXp"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1H1-ML-ftc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="993" y="1156"/>
         </scene>
@@ -136,10 +120,7 @@
         <image name="cart" catalog="system" width="128" height="102"/>
         <image name="restaurant_menu" width="12" height="12"/>
         <namedColor name="primaryDark">
-            <color red="0.67843137254901964" green="0.078431372549019607" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="secondaryLight">
-            <color red="1" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.67799997329711914" green="0.078000001609325409" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
