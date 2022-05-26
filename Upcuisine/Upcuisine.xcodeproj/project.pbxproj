@@ -22,6 +22,7 @@
 		3D2DC1F6283FC39200BE0B15 /* CartProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1F5283FC39200BE0B15 /* CartProtocol.swift */; };
 		3D2DC1F8283FC39D00BE0B15 /* CartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1F7283FC39D00BE0B15 /* CartPresenter.swift */; };
 		3D2DC1FA283FC3AD00BE0B15 /* CartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1F9283FC3AD00BE0B15 /* CartRouter.swift */; };
+		3D2DC1FD283FEE6900BE0B15 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2DC1FC283FEE6900BE0B15 /* Alamofire */; };
 		3D57478E283D7FC40029DBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478D283D7FC40029DBAB /* AppDelegate.swift */; };
 		3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478F283D7FC40029DBAB /* SceneDelegate.swift */; };
 		3D574792283D7FC40029DBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D574791283D7FC40029DBAB /* ViewController.swift */; };
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2DC1FD283FEE6900BE0B15 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +302,9 @@
 			dependencies = (
 			);
 			name = Upcuisine;
+			packageProductDependencies = (
+				3D2DC1FC283FEE6900BE0B15 /* Alamofire */,
+			);
 			productName = Upcuisine;
 			productReference = 3D57478A283D7FC40029DBAB /* Upcuisine.app */;
 			productType = "com.apple.product-type.application";
@@ -328,6 +333,9 @@
 				Base,
 			);
 			mainGroup = 3D574781283D7FC40029DBAB;
+			packageReferences = (
+				3D2DC1FB283FEE6900BE0B15 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 3D57478B283D7FC40029DBAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -596,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D2DC1FB283FEE6900BE0B15 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D2DC1FC283FEE6900BE0B15 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D2DC1FB283FEE6900BE0B15 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		3D574796283D7FC40029DBAB /* Upcuisine.xcdatamodeld */ = {
