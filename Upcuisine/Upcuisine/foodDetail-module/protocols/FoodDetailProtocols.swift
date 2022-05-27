@@ -11,11 +11,11 @@ protocol ViewToPresenterFoodDetailProtocol {
     
     var foodDetayInteractor : PresenterToInteractorFoodDetailProtocol? {get set}
     
-    func addToCart(yemek_id:Int,yemek_adi:String, yemek_resim_adi:String, yemek_fiyat:String)
+    func addToCart(yemek_adi:String, yemek_resim_adi:String, yemek_fiyat:String, yemek_siparis_adet:String, kullanici_adi:String)
 }
 
 protocol PresenterToInteractorFoodDetailProtocol{
-    func toCart(yemek_id:Int,yemek_adi:String, yemek_resim_adi:String, yemek_fiyat:String)
+    func toCart(yemek_adi:String, yemek_resim_adi:String, yemek_fiyat:String, yemek_siparis_adet:String, kullanici_adi:String)
 }
 
 protocol PresenterToRouterFoodDetailProtocol {

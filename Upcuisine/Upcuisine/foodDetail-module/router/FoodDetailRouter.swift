@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class FoodDetailsRouter : PresenterToRouterFoodDetailProtocol {
+    static func createModule(ref: FoodDetailViewController) {
+        ref.foodDetailPresenterObject = FoodDetailPresenter()
+        ref.foodDetailPresenterObject?.foodDetayInteractor = FoodDetailInteractor()
+    }
+    
+    
+}

@@ -28,6 +28,7 @@
 		3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2DC2042840505900BE0B15 /* Kingfisher */; };
 		3D2DC20828405C9B00BE0B15 /* UPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC20728405C9B00BE0B15 /* UPColors.swift */; };
 		3D530C59284100780064B4C1 /* CartFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530C58284100780064B4C1 /* CartFoods.swift */; };
+		3D530C5C284126670064B4C1 /* CartFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530C5B284126670064B4C1 /* CartFoodTableViewCell.swift */; };
 		3D57478E283D7FC40029DBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478D283D7FC40029DBAB /* AppDelegate.swift */; };
 		3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478F283D7FC40029DBAB /* SceneDelegate.swift */; };
 		3D574792283D7FC40029DBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D574791283D7FC40029DBAB /* ViewController.swift */; };
@@ -59,6 +60,7 @@
 		3D2DC2012840100100BE0B15 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		3D2DC20728405C9B00BE0B15 /* UPColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPColors.swift; sourceTree = "<group>"; };
 		3D530C58284100780064B4C1 /* CartFoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartFoods.swift; sourceTree = "<group>"; };
+		3D530C5B284126670064B4C1 /* CartFoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartFoodTableViewCell.swift; sourceTree = "<group>"; };
 		3D57478A283D7FC40029DBAB /* Upcuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upcuisine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D57478D283D7FC40029DBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D57478F283D7FC40029DBAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 				3D2DC20728405C9B00BE0B15 /* UPColors.swift */,
 			);
 			path = Colors;
+			sourceTree = "<group>";
+		};
+		3D530C5A284126490064B4C1 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				3D530C5B284126670064B4C1 /* CartFoodTableViewCell.swift */,
+			);
+			path = tableView;
 			sourceTree = "<group>";
 		};
 		3D574781283D7FC40029DBAB = {
@@ -166,6 +176,7 @@
 		3D5747A8283D850A0029DBAB /* cart-module */ = {
 			isa = PBXGroup;
 			children = (
+				3D530C5A284126490064B4C1 /* tableView */,
 				3D5747B9283DA3DB0029DBAB /* router */,
 				3D5747B8283DA3D40029DBAB /* view */,
 				3D5747B7283DA3CD0029DBAB /* presenter */,
@@ -407,6 +418,7 @@
 				3D2DC1E4283FC2E400BE0B15 /* FoodsInteractor.swift in Sources */,
 				3D2DC1FF283FF2C600BE0B15 /* FoodsResponse.swift in Sources */,
 				3D2DC1FA283FC3AD00BE0B15 /* CartRouter.swift in Sources */,
+				3D530C5C284126670064B4C1 /* CartFoodTableViewCell.swift in Sources */,
 				3D2DC1DE283FC26600BE0B15 /* FoodsViewController.swift in Sources */,
 				3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */,
 				3D2DC1E8283FC30200BE0B15 /* FoodsRouter.swift in Sources */,
