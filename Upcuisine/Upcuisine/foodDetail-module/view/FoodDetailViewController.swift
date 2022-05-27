@@ -14,6 +14,7 @@ class FoodDetailViewController: UIViewController {
     @IBOutlet weak var detailFoodName: UILabel!
     @IBOutlet weak var detailFoodPrice: UILabel!
     @IBOutlet weak var stepper: UIStepper!
+    @IBOutlet weak var foodCountLabel: UILabel!
     
     var food : Foods?
     
@@ -32,9 +33,11 @@ class FoodDetailViewController: UIViewController {
 
     }
     @IBAction func foodCount(_ sender: UIStepper) {
-        var foodCount = Int(sender.value)
-        
+        let foodCount = Int(sender.value)
+        foodCountLabel.text = String(foodCount)
     }
     
-
+    @IBAction func addToCartButton(_ sender: Any) {
+    }
+    
 }

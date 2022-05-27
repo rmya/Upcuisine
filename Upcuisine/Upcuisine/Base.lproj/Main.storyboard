@@ -152,17 +152,6 @@
                                 <color key="textColor" name="primaryDark"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="mkN-aY-eDS">
-                                <rect key="frame" x="304" y="364" width="94" height="36"/>
-                                <color key="backgroundColor" name="primary"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="mPl-W6-d4r"/>
-                                </constraints>
-                                <color key="tintColor" name="background"/>
-                                <connections>
-                                    <action selector="foodCount:" destination="9D8-8K-8SZ" eventType="valueChanged" id="5XK-de-Upj"/>
-                                </connections>
-                            </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0C-NE-cQh">
                                 <rect key="frame" x="20" y="548.5" width="374" height="116.5"/>
                                 <string key="text">Someone once famously said that “the way to a man’s heart is through his stomach.” Food can genuinely move hearts, win your friends and make amends in relationships where other things may not work.                        </string>
@@ -272,7 +261,27 @@
                                 <buttonConfiguration key="configuration" style="filled" title="ADD TO CART" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="addToCartButton:" destination="9D8-8K-8SZ" eventType="touchUpInside" id="6GG-dv-VyD"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADY-EX-tf8">
+                                <rect key="frame" x="343" y="350" width="16" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" name="primaryDark"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="mkN-aY-eDS">
+                                <rect key="frame" x="304" y="387" width="94" height="36"/>
+                                <color key="backgroundColor" name="primary"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="mPl-W6-d4r"/>
+                                </constraints>
+                                <color key="tintColor" name="background"/>
+                                <connections>
+                                    <action selector="foodCount:" destination="9D8-8K-8SZ" eventType="valueChanged" id="5XK-de-Upj"/>
+                                </connections>
+                            </stepper>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wz5-R9-82s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -281,10 +290,14 @@
                             <constraint firstItem="dGy-6W-yah" firstAttribute="top" secondItem="Wz5-R9-82s" secondAttribute="top" id="20X-GE-fEE"/>
                             <constraint firstItem="6T6-Ob-ACl" firstAttribute="top" secondItem="hjd-Jl-Ucd" secondAttribute="top" id="3Ff-BW-H1w"/>
                             <constraint firstItem="2ao-Eu-Pce" firstAttribute="top" secondItem="dGy-6W-yah" secondAttribute="bottom" constant="24" id="59b-U3-38E"/>
+                            <constraint firstItem="mkN-aY-eDS" firstAttribute="top" secondItem="ADY-EX-tf8" secondAttribute="bottom" constant="4" id="79U-0D-cqo"/>
                             <constraint firstItem="Wz5-R9-82s" firstAttribute="trailing" secondItem="mkN-aY-eDS" secondAttribute="trailing" constant="16" id="B3Q-OF-hvW"/>
                             <constraint firstItem="XVP-rV-GhK" firstAttribute="top" secondItem="X0C-NE-cQh" secondAttribute="bottom" constant="10" id="FXQ-DV-3Ey"/>
+                            <constraint firstItem="6T6-Ob-ACl" firstAttribute="top" secondItem="mkN-aY-eDS" secondAttribute="bottom" constant="22.5" id="Ghp-IQ-QtH"/>
                             <constraint firstItem="fvB-aD-e1M" firstAttribute="top" secondItem="XVP-rV-GhK" secondAttribute="bottom" constant="50" id="GmI-e5-uzh"/>
+                            <constraint firstItem="Wz5-R9-82s" firstAttribute="trailing" secondItem="mkN-aY-eDS" secondAttribute="trailing" constant="16" id="J3c-i9-ZP6"/>
                             <constraint firstItem="aYC-OJ-23t" firstAttribute="top" secondItem="hjd-Jl-Ucd" secondAttribute="bottom" constant="24" id="Mpe-oL-b1r"/>
+                            <constraint firstItem="ADY-EX-tf8" firstAttribute="top" secondItem="dGy-6W-yah" secondAttribute="bottom" constant="10" id="Sf2-Vl-Ses"/>
                             <constraint firstItem="Wz5-R9-82s" firstAttribute="trailing" secondItem="6T6-Ob-ACl" secondAttribute="trailing" constant="16" id="Tbd-h3-r9J"/>
                             <constraint firstItem="Wz5-R9-82s" firstAttribute="trailing" secondItem="dGy-6W-yah" secondAttribute="trailing" constant="16" id="Un9-zW-769"/>
                             <constraint firstItem="y1w-cV-FLs" firstAttribute="top" secondItem="2ao-Eu-Pce" secondAttribute="bottom" constant="8" id="VFi-nr-RxE"/>
@@ -293,13 +306,14 @@
                             <constraint firstItem="X0C-NE-cQh" firstAttribute="top" secondItem="aYC-OJ-23t" secondAttribute="bottom" constant="16" id="aoS-nW-feZ"/>
                             <constraint firstItem="6T6-Ob-ACl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hjd-Jl-Ucd" secondAttribute="trailing" constant="8" symbolic="YES" id="dGU-9Y-zWD"/>
                             <constraint firstItem="hjd-Jl-Ucd" firstAttribute="leading" secondItem="Wz5-R9-82s" secondAttribute="leading" constant="10" id="ei4-FM-rBy"/>
+                            <constraint firstItem="mkN-aY-eDS" firstAttribute="top" secondItem="ADY-EX-tf8" secondAttribute="bottom" constant="4" id="iMh-dA-k4y"/>
                             <constraint firstItem="Wz5-R9-82s" firstAttribute="trailing" secondItem="X0C-NE-cQh" secondAttribute="trailing" constant="20" id="j5y-Lc-o8m"/>
                             <constraint firstItem="2ao-Eu-Pce" firstAttribute="leading" secondItem="Wz5-R9-82s" secondAttribute="leading" constant="16" id="lXx-3Y-2Po"/>
                             <constraint firstItem="dGy-6W-yah" firstAttribute="leading" secondItem="Wz5-R9-82s" secondAttribute="leading" constant="16" id="mn5-cU-qra"/>
                             <constraint firstItem="Wz5-R9-82s" firstAttribute="trailing" secondItem="hjd-Jl-Ucd" secondAttribute="trailing" constant="150" id="pbo-8X-mgv"/>
                             <constraint firstItem="aYC-OJ-23t" firstAttribute="leading" secondItem="Wz5-R9-82s" secondAttribute="leading" constant="16" id="ph1-Xf-J84"/>
                             <constraint firstItem="hjd-Jl-Ucd" firstAttribute="top" secondItem="y1w-cV-FLs" secondAttribute="bottom" constant="16" id="qV9-dp-LQx"/>
-                            <constraint firstItem="mkN-aY-eDS" firstAttribute="top" secondItem="dGy-6W-yah" secondAttribute="bottom" constant="24" id="sc3-ei-Tuy"/>
+                            <constraint firstItem="Wz5-R9-82s" firstAttribute="trailing" secondItem="ADY-EX-tf8" secondAttribute="trailing" constant="55" id="txI-bo-qAd"/>
                             <constraint firstItem="XVP-rV-GhK" firstAttribute="centerX" secondItem="z5S-RG-k94" secondAttribute="centerX" id="x23-CH-N6U"/>
                         </constraints>
                     </view>
@@ -308,6 +322,7 @@
                         <outlet property="detailFoodName" destination="2ao-Eu-Pce" id="M8l-Ta-3rJ"/>
                         <outlet property="detailFoodPrice" destination="6T6-Ob-ACl" id="Ca5-vE-pG7"/>
                         <outlet property="detailImageView" destination="dGy-6W-yah" id="tRU-4z-YzS"/>
+                        <outlet property="foodCountLabel" destination="ADY-EX-tf8" id="PB0-5Y-JKN"/>
                         <outlet property="stepper" destination="mkN-aY-eDS" id="PuE-w9-18o"/>
                     </connections>
                 </viewController>
