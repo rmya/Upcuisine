@@ -17,7 +17,7 @@
             startingLineNumber = "20"
             endingLineNumber = "20"
             landmarkName = "allFoods()"
-            landmarkType = "9">
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "0646752B-5B67-48DA-9B87-A7FB13614D61 - 4360331f402d4bc8"
@@ -65,7 +65,7 @@
             startingLineNumber = "21"
             endingLineNumber = "21"
             landmarkName = "allFoods()"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -81,7 +81,7 @@
             startingLineNumber = "17"
             endingLineNumber = "17"
             landmarkName = "allFoods()"
-            landmarkType = "9">
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "1A386B13-7DC8-4319-9421-EBC3C1ACAA1C - 4360331f402d4a75"
@@ -129,7 +129,7 @@
             startingLineNumber = "19"
             endingLineNumber = "19"
             landmarkName = "allFoods()"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

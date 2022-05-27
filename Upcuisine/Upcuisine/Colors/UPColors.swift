@@ -15,6 +15,7 @@ enum AssetsColor {
     case secondary
     case secondaryLight
     case grayy
+    case background
 }
 
 extension UIColor{
@@ -33,6 +34,8 @@ extension UIColor{
                 return UIColor(named: "secondaryLight")
             case .grayy:
                 return UIColor(named: "grayy")
+            case .background:
+                return UIColor(named: "background")
         }
     }
 }

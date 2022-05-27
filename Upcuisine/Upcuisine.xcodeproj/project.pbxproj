@@ -27,6 +27,7 @@
 		3D2DC2022840100100BE0B15 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC2012840100100BE0B15 /* FoodCollectionViewCell.swift */; };
 		3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2DC2042840505900BE0B15 /* Kingfisher */; };
 		3D2DC20828405C9B00BE0B15 /* UPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC20728405C9B00BE0B15 /* UPColors.swift */; };
+		3D530C59284100780064B4C1 /* CartFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530C58284100780064B4C1 /* CartFoods.swift */; };
 		3D57478E283D7FC40029DBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478D283D7FC40029DBAB /* AppDelegate.swift */; };
 		3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478F283D7FC40029DBAB /* SceneDelegate.swift */; };
 		3D574792283D7FC40029DBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D574791283D7FC40029DBAB /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 		3D2DC1FE283FF2C600BE0B15 /* FoodsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsResponse.swift; sourceTree = "<group>"; };
 		3D2DC2012840100100BE0B15 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		3D2DC20728405C9B00BE0B15 /* UPColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPColors.swift; sourceTree = "<group>"; };
+		3D530C58284100780064B4C1 /* CartFoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartFoods.swift; sourceTree = "<group>"; };
 		3D57478A283D7FC40029DBAB /* Upcuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upcuisine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D57478D283D7FC40029DBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D57478F283D7FC40029DBAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			children = (
 				3D5747C1283DA7D80029DBAB /* Foods.swift */,
 				3D2DC1FE283FF2C600BE0B15 /* FoodsResponse.swift */,
+				3D530C58284100780064B4C1 /* CartFoods.swift */,
 			);
 			path = entity;
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 				3D2DC1EA283FC32100BE0B15 /* FoodDetailProtocols.swift in Sources */,
 				3D574798283D7FC40029DBAB /* Upcuisine.xcdatamodeld in Sources */,
 				3D2DC1F0283FC34D00BE0B15 /* FoodDetailRouter.swift in Sources */,
+				3D530C59284100780064B4C1 /* CartFoods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

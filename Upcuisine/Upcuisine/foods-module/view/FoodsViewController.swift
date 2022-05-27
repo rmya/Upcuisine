@@ -40,7 +40,7 @@ class FoodsViewController: UIViewController {
         if segue.identifier == "toDetail"{
             if let food = sender as? Foods {
                 let nextVC = segue.destination as! FoodDetailViewController
-//                nextVC.food = food
+                nextVC.food = food
             }
         }
     }
@@ -72,11 +72,18 @@ extension FoodsViewController : UICollectionViewDelegate, UICollectionViewDataSo
             let url = URL(string: "http://kasimadalan.pe.hu/yemekler/resimler/\(food.yemek_resim_adi!)")
             cell.foodImageView.kf.setImage(with: url)
         }
+        cell.foodContentView.backgroundColor = UIColor.upColor(.background)
         cell.foodContentView.layer.borderColor = UIColor.lightGray.cgColor
         cell.foodContentView.layer.borderWidth = 0.3
         cell.layer.cornerRadius = 8.0
         
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let food = foodList[indexPath.row]
+        performSegue(withIdentifier: "toDetail", sender: food)
+        collectionView.deselectItem(at: indexPath, animated: true)
     }
     
     
