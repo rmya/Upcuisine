@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8D1F2A70-9E8A-41B7-90D6-4821C31E9A86"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0646752B-5B67-48DA-9B87-A7FB13614D61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/interactor/FoodsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "allFoods()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "0646752B-5B67-48DA-9B87-A7FB13614D61 - 4360331f402d4bc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Upcuisine.FoodsInteractor.allFoods() -&gt; ()"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/interactor/FoodsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "0646752B-5B67-48DA-9B87-A7FB13614D61 - 4360331f402d4bc8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Upcuisine.FoodsInteractor.allFoods() -&gt; ()"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/interactor/FoodsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CAD80FB-350A-429B-AD25-1CB2F889BE44"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/interactor/FoodsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "allFoods()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A386B13-7DC8-4319-9421-EBC3C1ACAA1C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/interactor/FoodsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "allFoods()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "1A386B13-7DC8-4319-9421-EBC3C1ACAA1C - 4360331f402d4a75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Upcuisine.FoodsInteractor.allFoods() -&gt; ()"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/interactor/FoodsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "1A386B13-7DC8-4319-9421-EBC3C1ACAA1C - 4360331f402d4a75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Upcuisine.FoodsInteractor.allFoods() -&gt; ()"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/interactor/FoodsInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7873456-B2DF-4150-8083-ABE1517DBE34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/interactor/FoodsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "allFoods()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

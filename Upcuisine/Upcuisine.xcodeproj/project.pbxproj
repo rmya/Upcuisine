@@ -23,6 +23,10 @@
 		3D2DC1F8283FC39D00BE0B15 /* CartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1F7283FC39D00BE0B15 /* CartPresenter.swift */; };
 		3D2DC1FA283FC3AD00BE0B15 /* CartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1F9283FC3AD00BE0B15 /* CartRouter.swift */; };
 		3D2DC1FD283FEE6900BE0B15 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2DC1FC283FEE6900BE0B15 /* Alamofire */; };
+		3D2DC1FF283FF2C600BE0B15 /* FoodsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1FE283FF2C600BE0B15 /* FoodsResponse.swift */; };
+		3D2DC2022840100100BE0B15 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC2012840100100BE0B15 /* FoodCollectionViewCell.swift */; };
+		3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2DC2042840505900BE0B15 /* Kingfisher */; };
+		3D2DC20828405C9B00BE0B15 /* UPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC20728405C9B00BE0B15 /* UPColors.swift */; };
 		3D57478E283D7FC40029DBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478D283D7FC40029DBAB /* AppDelegate.swift */; };
 		3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D57478F283D7FC40029DBAB /* SceneDelegate.swift */; };
 		3D574792283D7FC40029DBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D574791283D7FC40029DBAB /* ViewController.swift */; };
@@ -31,7 +35,6 @@
 		3D57479A283D7FC50029DBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D574799283D7FC50029DBAB /* Assets.xcassets */; };
 		3D57479D283D7FC50029DBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D57479B283D7FC50029DBAB /* LaunchScreen.storyboard */; };
 		3D5747C2283DA7D80029DBAB /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5747C1283DA7D80029DBAB /* Foods.swift */; };
-		3D5747C4283DA8390029DBAB /* FoodsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5747C3283DA8390029DBAB /* FoodsRequest.swift */; };
 		3D5747C7283DAFBE0029DBAB /* Rock_Salt in Resources */ = {isa = PBXBuildFile; fileRef = 3D5747C6283DAFBE0029DBAB /* Rock_Salt */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +54,9 @@
 		3D2DC1F5283FC39200BE0B15 /* CartProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProtocol.swift; sourceTree = "<group>"; };
 		3D2DC1F7283FC39D00BE0B15 /* CartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPresenter.swift; sourceTree = "<group>"; };
 		3D2DC1F9283FC3AD00BE0B15 /* CartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRouter.swift; sourceTree = "<group>"; };
+		3D2DC1FE283FF2C600BE0B15 /* FoodsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsResponse.swift; sourceTree = "<group>"; };
+		3D2DC2012840100100BE0B15 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D2DC20728405C9B00BE0B15 /* UPColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPColors.swift; sourceTree = "<group>"; };
 		3D57478A283D7FC40029DBAB /* Upcuisine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Upcuisine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D57478D283D7FC40029DBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D57478F283D7FC40029DBAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +67,6 @@
 		3D57479C283D7FC50029DBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D57479E283D7FC50029DBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D5747C1283DA7D80029DBAB /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
-		3D5747C3283DA8390029DBAB /* FoodsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsRequest.swift; sourceTree = "<group>"; };
 		3D5747C6283DAFBE0029DBAB /* Rock_Salt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Rock_Salt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */,
 				3D2DC1FD283FEE6900BE0B15 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,6 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D2DC20028400FC700BE0B15 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3D2DC2012840100100BE0B15 /* FoodCollectionViewCell.swift */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+		3D2DC20628405C8000BE0B15 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				3D2DC20728405C9B00BE0B15 /* UPColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		3D574781283D7FC40029DBAB = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +118,7 @@
 		3D57478C283D7FC40029DBAB /* Upcuisine */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC20628405C8000BE0B15 /* Colors */,
 				3D5747C5283DAFA00029DBAB /* fonts */,
 				3D5747AA283D974D0029DBAB /* entity */,
 				3D5747A8283D850A0029DBAB /* cart-module */,
@@ -116,6 +139,7 @@
 		3D5747A5283D83880029DBAB /* foods-module */ = {
 			isa = PBXGroup;
 			children = (
+				3D2DC20028400FC700BE0B15 /* collectionView */,
 				3D5747AF283D98380029DBAB /* router */,
 				3D5747AE283D98320029DBAB /* view */,
 				3D5747AD283D98260029DBAB /* presenter */,
@@ -153,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				3D5747C1283DA7D80029DBAB /* Foods.swift */,
-				3D5747C3283DA8390029DBAB /* FoodsRequest.swift */,
+				3D2DC1FE283FF2C600BE0B15 /* FoodsResponse.swift */,
 			);
 			path = entity;
 			sourceTree = "<group>";
@@ -304,6 +328,7 @@
 			name = Upcuisine;
 			packageProductDependencies = (
 				3D2DC1FC283FEE6900BE0B15 /* Alamofire */,
+				3D2DC2042840505900BE0B15 /* Kingfisher */,
 			);
 			productName = Upcuisine;
 			productReference = 3D57478A283D7FC40029DBAB /* Upcuisine.app */;
@@ -335,6 +360,7 @@
 			mainGroup = 3D574781283D7FC40029DBAB;
 			packageReferences = (
 				3D2DC1FB283FEE6900BE0B15 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3D2DC2032840505900BE0B15 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 3D57478B283D7FC40029DBAB /* Products */;
 			projectDirPath = "";
@@ -364,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2DC2022840100100BE0B15 /* FoodCollectionViewCell.swift in Sources */,
 				3D5747C2283DA7D80029DBAB /* Foods.swift in Sources */,
 				3D2DC1F6283FC39200BE0B15 /* CartProtocol.swift in Sources */,
 				3D2DC1E2283FC2D400BE0B15 /* FoodsProtocol.swift in Sources */,
@@ -375,11 +402,12 @@
 				3D2DC1EC283FC33200BE0B15 /* FoodDetailInteractor.swift in Sources */,
 				3D2DC1EE283FC34100BE0B15 /* FoodDetailPresenter.swift in Sources */,
 				3D2DC1E4283FC2E400BE0B15 /* FoodsInteractor.swift in Sources */,
+				3D2DC1FF283FF2C600BE0B15 /* FoodsResponse.swift in Sources */,
 				3D2DC1FA283FC3AD00BE0B15 /* CartRouter.swift in Sources */,
-				3D5747C4283DA8390029DBAB /* FoodsRequest.swift in Sources */,
 				3D2DC1DE283FC26600BE0B15 /* FoodsViewController.swift in Sources */,
 				3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */,
 				3D2DC1E8283FC30200BE0B15 /* FoodsRouter.swift in Sources */,
+				3D2DC20828405C9B00BE0B15 /* UPColors.swift in Sources */,
 				3D2DC1D2283FAAD000BE0B15 /* CartViewController.swift in Sources */,
 				3D2DC1F8283FC39D00BE0B15 /* CartPresenter.swift in Sources */,
 				3D2DC1EA283FC32100BE0B15 /* FoodDetailProtocols.swift in Sources */,
@@ -614,6 +642,14 @@
 				kind = branch;
 			};
 		};
+		3D2DC2032840505900BE0B15 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -621,6 +657,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3D2DC1FB283FEE6900BE0B15 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		3D2DC2042840505900BE0B15 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D2DC2032840505900BE0B15 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 

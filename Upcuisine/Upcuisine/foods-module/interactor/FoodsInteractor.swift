@@ -6,3 +6,27 @@
 //
 
 import Foundation
+import Alamofire
+
+class FoodsInteractor : PresenterToInteractorFoodsProtocol {
+    
+    var foodsPresenter: InteractorToPresenterFoodsProtocol?
+    
+    func allFoods() {
+        AF.request("http://kasimadalan.pe.hu/yemekler/tumYemekleriGetir.php", method: .get).response { response in
+            if let data = response.data{
+                do{
+                    let res = try JSONDecoder().decode(FoodsResponse.self, from: data)
+                    if let list = res.yemekler{
+                        self.foodsPresenter?.sendDataToPresenter(foodList: list)
+                    }
+                }catch{
+                    print(error.localizedDescription)
+                    print(String(describing: error))
+                }
+            }
+        }
+    }
+    
+    
+}
