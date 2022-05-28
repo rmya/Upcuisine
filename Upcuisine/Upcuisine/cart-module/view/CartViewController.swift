@@ -104,8 +104,13 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
                     let item = tabItems[1]
                     item.badgeValue = String(self.cartList.count)
                 }
-                
             }
+            
+            if let tabItems = self.tabBarController?.tabBar.items {
+                let item = tabItems[1]
+                item.badgeValue = String(self.cartList.count)
+            }
+            
             alert.addAction(yesAction)
             self.present(alert, animated: true)
             

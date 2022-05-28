@@ -45,6 +45,15 @@ class FoodDetailViewController: UIViewController {
         if let fn = detailFoodName.text, let fc = foodCountLabel.text, let un = userName, let f = food{
             foodDetailPresenterObject?.addToCart(yemek_adi: fn, yemek_resim_adi: (f.yemek_resim_adi!), yemek_fiyat:(f.yemek_fiyat!), yemek_siparis_adet: fc, kullanici_adi: un)
         }
+        
+        let message = "Your dish has been added to cart"
+        let alert = UIAlertController(title:nil, message: message, preferredStyle: .alert)
+        self.present(alert, animated: true)
+        
+        let duration : Double = 1
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + duration) {
+            alert.dismiss(animated: true)
+        }
     }
     
     
