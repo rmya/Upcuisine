@@ -29,8 +29,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="120.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-En-dVf">
-                                                    <rect key="frame" x="16" y="10" width="350" height="100.5"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-En-dVf">
+                                                    <rect key="frame" x="8" y="10" width="358" height="100.5"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wrd-YE-Nmt">
                                                             <rect key="frame" x="0.0" y="0.5" width="100" height="100"/>
@@ -40,22 +40,22 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnR-Om-Gr0">
-                                                            <rect key="frame" x="123" y="38.5" width="63" height="24"/>
+                                                            <rect key="frame" x="115" y="38.5" width="103" height="24"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                             <color key="textColor" name="primary"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="8FQ-hY-kxA">
-                                                            <rect key="frame" x="209" y="24" width="60" height="52.5"/>
+                                                            <rect key="frame" x="233" y="24" width="55" height="52.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="piece" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79B-Dr-7Zc">
-                                                                    <rect key="frame" x="7" y="0.0" width="46.5" height="29"/>
+                                                                    <rect key="frame" x="4.5" y="0.0" width="46.5" height="29"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                                     <color key="textColor" name="primary"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piece" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vpj-v0-gYf">
-                                                                    <rect key="frame" x="10" y="33" width="40" height="19.5"/>
+                                                                    <rect key="frame" x="7.5" y="33" width="40" height="19.5"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="19.5" id="ZB8-eA-02L"/>
                                                                     </constraints>
@@ -65,13 +65,13 @@
                                                                 </label>
                                                             </subviews>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="60" id="zAj-qO-3da"/>
+                                                                <constraint firstAttribute="width" constant="55" id="zAj-qO-3da"/>
                                                             </constraints>
                                                         </stackView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JR7-bM-H4U">
-                                                            <rect key="frame" x="292" y="35" width="58" height="30.5"/>
+                                                            <rect key="frame" x="303" y="35" width="55" height="30.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="58" id="Wr8-b6-6hp"/>
+                                                                <constraint firstAttribute="width" constant="55" id="Wr8-b6-6hp"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
                                                             <color key="textColor" name="primaryDark"/>
@@ -87,7 +87,7 @@
                                             <constraints>
                                                 <constraint firstItem="9M9-En-dVf" firstAttribute="top" secondItem="bgN-9Q-S6v" secondAttribute="top" constant="10" id="HGZ-QH-ddp"/>
                                                 <constraint firstAttribute="trailing" secondItem="9M9-En-dVf" secondAttribute="trailing" constant="16" id="OX8-e0-tws"/>
-                                                <constraint firstItem="9M9-En-dVf" firstAttribute="leading" secondItem="bgN-9Q-S6v" secondAttribute="leading" constant="16" id="Pql-OS-Dey"/>
+                                                <constraint firstItem="9M9-En-dVf" firstAttribute="leading" secondItem="bgN-9Q-S6v" secondAttribute="leading" constant="8" id="Pql-OS-Dey"/>
                                                 <constraint firstAttribute="bottom" secondItem="9M9-En-dVf" secondAttribute="bottom" constant="10" id="ud8-gD-zGU"/>
                                             </constraints>
                                         </tableViewCellContentView>

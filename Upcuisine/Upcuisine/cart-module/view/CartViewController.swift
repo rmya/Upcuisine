@@ -32,13 +32,19 @@ class CartViewController: UIViewController {
         userName = "rumeysa_tan"
         cartPresenterObject?.loadCart(kullanici_adi: userName!)
         
-//        if(cartList.count == 0){
-//            self.cartFoodTableView.isHidden = true
-//            self.emptyInfoView.isHidden = false
-//        }else{
-//            self.cartFoodTableView.isHidden = false
-//            self.emptyInfoView.isHidden = true
-//        }
+        if(cartList.isEmpty){
+            self.cartFoodTableView.isHidden = true
+            self.totolPriceLabel.isHidden = true
+            self.sumPriceLabel.isHidden = true
+            self.quickOrderButton.isHidden = true
+            self.emptyInfoView.isHidden = false
+        }else{
+            self.cartFoodTableView.isHidden = false
+            self.totolPriceLabel.isHidden = true
+            self.sumPriceLabel.isHidden = true
+            self.quickOrderButton.isHidden = false
+            self.emptyInfoView.isHidden = true
+        }
     }
 
 }
