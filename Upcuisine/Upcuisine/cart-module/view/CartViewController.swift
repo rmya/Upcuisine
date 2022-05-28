@@ -31,6 +31,14 @@ class CartViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         userName = "rumeysa_tan"
         cartPresenterObject?.loadCart(kullanici_adi: userName!)
+        
+//        if(cartList.count == 0){
+//            self.cartFoodTableView.isHidden = true
+//            self.emptyInfoView.isHidden = false
+//        }else{
+//            self.cartFoodTableView.isHidden = false
+//            self.emptyInfoView.isHidden = true
+//        }
     }
 
 }
@@ -47,6 +55,12 @@ extension CartViewController : PresenterToViewCartProtocol {
 extension CartViewController : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        if let tabItems = tabBarController?.tabBar.items {
+            let item = tabItems[1]
+            item.badgeValue = String(cartList.count)
+        }
+        
         return cartList.count
     }
     
@@ -56,8 +70,12 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cartFood", for: indexPath) as! CartFoodTableViewCell
         
         cell.cartFoodName.text = "\(food.yemek_adi!)"
+        
+        if let piece = Int(food.yemek_siparis_adet!), let price = Int(food.yemek_fiyat!) {
+            let cellTotalPrice = piece * price
+            cell.cartFoodPrice.text = "\(cellTotalPrice) ₺ "
+        }
         cell.cartFoodPiece.text = "\(food.yemek_siparis_adet!)"
-        cell.cartFoodPrice.text = "\(food.yemek_fiyat!)"
         DispatchQueue.main.async {
             let url = URL(string: "http://kasimadalan.pe.hu/yemekler/resimler/\(food.yemek_resim_adi!)")
             cell.cartFoodImage.kf.setImage(with: url)
@@ -76,11 +94,16 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
             let cancelAction = UIAlertAction(title: "Cancel", style: .cancel){ action in }
             alert.addAction(cancelAction)
             
-            let yesAction = UIAlertAction(title: "Yes", style: .destructive){ action in
+            let yesAction = UIAlertAction(title: "Yes", style: .destructive){ [self] action in
                 self.userName = "rumeysa_tan"
                 
                 self.cartPresenterObject?.delete(sepet_yemek_id: (food.sepet_yemek_id)!, kullanici_adi: (self.userName!))
                 self.cartPresenterObject?.loadCart(kullanici_adi: (self.userName!))
+                
+                if let tabItems = self.tabBarController?.tabBar.items {
+                    let item = tabItems[1]
+                    item.badgeValue = String(self.cartList.count)
+                }
                 
             }
             alert.addAction(yesAction)
