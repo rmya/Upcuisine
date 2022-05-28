@@ -31,7 +31,6 @@ class CartViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         userName = "rumeysa_tan"
         cartPresenterObject?.loadCart(kullanici_adi: userName!)
-//        cartPresenterObject?.delete(sepet_yemek_id: (sepet_yemek_id)!, kullanici_adi: userName)
     }
 
 }
@@ -81,14 +80,8 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
                 self.userName = "rumeysa_tan"
                 
                 self.cartPresenterObject?.delete(sepet_yemek_id: (food.sepet_yemek_id)!, kullanici_adi: (self.userName!))
+                self.cartPresenterObject?.loadCart(kullanici_adi: (self.userName!))
                 
-//                if let food_id = Int(food.sepet_yemek_id!){
-//                    self.cartPresenterObject?.delete(sepet_yemek_id: Int(food_id!)!, kullanici_adi: (food.kullanici_adi)!)
-//                }
-                
-                DispatchQueue.main.async {
-                    self.cartFoodTableView.reloadData()
-                }
             }
             alert.addAction(yesAction)
             self.present(alert, animated: true)
