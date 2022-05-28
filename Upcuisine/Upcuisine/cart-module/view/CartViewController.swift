@@ -31,6 +31,7 @@ class CartViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         userName = "rumeysa_tan"
         cartPresenterObject?.loadCart(kullanici_adi: userName!)
+//        cartPresenterObject?.delete(sepet_yemek_id: (sepet_yemek_id)!, kullanici_adi: userName)
     }
 
 }
@@ -63,6 +64,38 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
             cell.cartFoodImage.kf.setImage(with: url)
         }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        
+        let deleteAction = UIContextualAction(style: .destructive, title: "Delete"){
+            (action,view,void) in
+            
+            let food = self.cartList[indexPath.row]
+            
+            let alert = UIAlertController(title: "Deletion process", message: "Do you want to delete \(food.yemek_adi!)", preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title: "Cancel", style: .cancel){ action in }
+            alert.addAction(cancelAction)
+            
+            let yesAction = UIAlertAction(title: "Yes", style: .destructive){ action in
+                self.userName = "rumeysa_tan"
+                
+                self.cartPresenterObject?.delete(sepet_yemek_id: (food.sepet_yemek_id)!, kullanici_adi: (self.userName!))
+                
+//                if let food_id = Int(food.sepet_yemek_id!){
+//                    self.cartPresenterObject?.delete(sepet_yemek_id: Int(food_id!)!, kullanici_adi: (food.kullanici_adi)!)
+//                }
+                
+                DispatchQueue.main.async {
+                    self.cartFoodTableView.reloadData()
+                }
+            }
+            alert.addAction(yesAction)
+            self.present(alert, animated: true)
+            
+        }
+        return UISwipeActionsConfiguration(actions: [deleteAction])
+        
     }
     
 
