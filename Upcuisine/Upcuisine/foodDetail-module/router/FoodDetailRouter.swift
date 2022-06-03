@@ -9,8 +9,17 @@ import Foundation
 
 class FoodDetailsRouter : PresenterToRouterFoodDetailProtocol {
     static func createModule(ref: FoodDetailViewController) {
-        ref.foodDetailPresenterObject = FoodDetailPresenter()
+        
+        let presenter = FoodDetailPresenter()
+        let cartPresenter = CartPresenter()
+        
+        ref.foodDetailPresenterObject = presenter
         ref.foodDetailPresenterObject?.foodDetayInteractor = FoodDetailInteractor()
+        
+        ref.cartPresenterObject = cartPresenter
+        ref.cartPresenterObject?.cartInteractor = CartInteractor()
+        ref.cartPresenterObject?.cartView = ref
+        ref.cartPresenterObject?.cartInteractor?.cartPresenter = cartPresenter
     }
     
     

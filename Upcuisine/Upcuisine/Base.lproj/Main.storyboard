@@ -29,7 +29,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="382" height="120.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-En-dVf">
+                                                <stackView opaque="NO" contentMode="scaleAspectFit" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9M9-En-dVf">
                                                     <rect key="frame" x="8" y="10" width="358" height="100.5"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wrd-YE-Nmt">
@@ -39,49 +39,53 @@
                                                                 <constraint firstAttribute="height" constant="100" id="vSo-PZ-awn"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnR-Om-Gr0">
-                                                            <rect key="frame" x="115" y="38.5" width="103" height="24"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnR-Om-Gr0">
+                                                            <rect key="frame" x="110" y="38.5" width="60" height="24"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="60" id="gGt-AM-Pri"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                                            <color key="textColor" name="primary"/>
+                                                            <color key="textColor" name="tabbarItem"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="8FQ-hY-kxA">
-                                                            <rect key="frame" x="233" y="24" width="55" height="52.5"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bZ0-2D-bls">
+                                                            <rect key="frame" x="180" y="26.5" width="113" height="47.5"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="piece" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79B-Dr-7Zc">
-                                                                    <rect key="frame" x="4.5" y="0.0" width="46.5" height="29"/>
-                                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
-                                                                    <color key="textColor" name="primary"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piece" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vpj-v0-gYf">
-                                                                    <rect key="frame" x="7.5" y="33" width="40" height="19.5"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="8FQ-hY-kxA">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="113" height="47.5"/>
+                                                                    <subviews>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="piece" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79B-Dr-7Zc">
+                                                                            <rect key="frame" x="33.5" y="0.0" width="46.5" height="24"/>
+                                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                                                            <color key="textColor" name="primary"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piece" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vpj-v0-gYf">
+                                                                            <rect key="frame" x="36.5" y="28" width="40" height="19.5"/>
+                                                                            <constraints>
+                                                                                <constraint firstAttribute="height" constant="19.5" id="ZB8-eA-02L"/>
+                                                                            </constraints>
+                                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                                            <color key="textColor" name="secondary"/>
+                                                                            <nil key="highlightedColor"/>
+                                                                        </label>
+                                                                    </subviews>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="height" constant="19.5" id="ZB8-eA-02L"/>
+                                                                        <constraint firstAttribute="width" constant="55" id="zAj-qO-3da"/>
                                                                     </constraints>
-                                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                                                    <color key="textColor" name="secondary"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
+                                                                </stackView>
                                                             </subviews>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="55" id="zAj-qO-3da"/>
-                                                            </constraints>
                                                         </stackView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JR7-bM-H4U">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="price" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JR7-bM-H4U">
                                                             <rect key="frame" x="303" y="35" width="55" height="30.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="55" id="Wr8-b6-6hp"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
-                                                            <color key="textColor" name="primaryDark"/>
+                                                            <color key="textColor" name="tabbarItem"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <constraints>
-                                                        <constraint firstItem="8FQ-hY-kxA" firstAttribute="top" secondItem="9M9-En-dVf" secondAttribute="top" constant="24" id="28o-ED-P5B"/>
-                                                        <constraint firstAttribute="bottom" secondItem="8FQ-hY-kxA" secondAttribute="bottom" constant="24" id="Rez-G7-1HD"/>
-                                                    </constraints>
                                                 </stackView>
                                             </subviews>
                                             <constraints>
@@ -142,7 +146,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ft-Gp-I1o">
                                 <rect key="frame" x="30" y="756" width="86" height="41"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
-                                <color key="textColor" name="primaryDark"/>
+                                <color key="textColor" name="tabbarItem"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -308,7 +312,7 @@
                                 <rect key="frame" x="20" y="548.5" width="374" height="116.5"/>
                                 <string key="text">Someone once famously said that “the way to a man’s heart is through his stomach.” Food can genuinely move hearts, win your friends and make amends in relationships where other things may not work.                        </string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" name="secondary"/>
+                                <color key="textColor" name="tabbarItem"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYC-OJ-23t">
@@ -479,10 +483,12 @@
         <scene sceneID="EsI-We-GJo">
             <objects>
                 <tabBarController id="9RF-5E-2yf" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="HbU-Nj-orq">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HbU-Nj-orq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="selectedImageTintColor" name="secondary"/>
+                        <color key="backgroundColor" name="background"/>
+                        <color key="tintColor" name="tabbarItem"/>
+                        <color key="selectedImageTintColor" name="tabbarItem"/>
                     </tabBar>
                     <connections>
                         <segue destination="Xml-8I-xHZ" kind="relationship" relationship="viewControllers" id="NRy-26-EMF"/>
@@ -554,7 +560,7 @@
         <image name="food-delivery" width="64" height="64"/>
         <image name="freeDelivery" width="990" height="606"/>
         <image name="restaurant_menu" width="12" height="12"/>
-        <image name="star" width="64" height="64"/>
+        <image name="star" width="96" height="96"/>
         <namedColor name="background">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -565,10 +571,13 @@
             <color red="0.88999998569488525" green="0.31799998879432678" blue="0.51399999856948853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="primaryDark">
-            <color red="0.67799997329711914" green="0.078000001609325409" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.67843137254901964" green="0.078431372549019607" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondary">
             <color red="0.80000001192092896" green="0.72500002384185791" blue="0.7369999885559082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tabbarItem">
+            <color red="0.67843137254901964" green="0.078431372549019607" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

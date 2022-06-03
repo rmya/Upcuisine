@@ -18,6 +18,14 @@ protocol PresenterToInteractorFoodDetailProtocol{
     func toCart(yemek_adi:String, yemek_resim_adi:String, yemek_fiyat:String, yemek_siparis_adet:String, kullanici_adi:String)
 }
 
+protocol InteractorToPresenterFoodDetailProtocol {
+    func sendDataToPresenter(cartList: Array<CartFoods>)
+}
+
+protocol PresenterToViewFoodDetailProtocol {
+    func sendDataToView(cartList: Array<CartFoods>)
+}
+
 protocol PresenterToRouterFoodDetailProtocol {
     static func createModule(ref:FoodDetailViewController)
 }

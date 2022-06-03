@@ -47,7 +47,7 @@ class FoodsViewController: UIViewController {
     
 }
 
-extension FoodsViewController : PresenterToViewFoodsProtocol {
+extension FoodsViewController : PresenterToViewFoodsProtocol{
     
     func sendDataToView(foodList: Array<Foods>) {
         self.foodList = foodList

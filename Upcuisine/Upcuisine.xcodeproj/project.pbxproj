@@ -30,6 +30,7 @@
 		3D2DC2022840100100BE0B15 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC2012840100100BE0B15 /* FoodCollectionViewCell.swift */; };
 		3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2DC2042840505900BE0B15 /* Kingfisher */; };
 		3D2DC20828405C9B00BE0B15 /* UPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC20728405C9B00BE0B15 /* UPColors.swift */; };
+		3D2FF3BE284A7B3A00F5287D /* StepperView in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2FF3BD284A7B3A00F5287D /* StepperView */; };
 		3D530C59284100780064B4C1 /* CartFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530C58284100780064B4C1 /* CartFoods.swift */; };
 		3D530C5C284126670064B4C1 /* CartFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530C5B284126670064B4C1 /* CartFoodTableViewCell.swift */; };
 		3D530C5E284147AA0064B4C1 /* CartFoodsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530C5D284147AA0064B4C1 /* CartFoodsResponse.swift */; };
@@ -87,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2FF3BE284A7B3A00F5287D /* StepperView in Frameworks */,
 				3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */,
 				3D2DC1FD283FEE6900BE0B15 /* Alamofire in Frameworks */,
 			);
@@ -363,6 +365,7 @@
 			packageProductDependencies = (
 				3D2DC1FC283FEE6900BE0B15 /* Alamofire */,
 				3D2DC2042840505900BE0B15 /* Kingfisher */,
+				3D2FF3BD284A7B3A00F5287D /* StepperView */,
 			);
 			productName = Upcuisine;
 			productReference = 3D57478A283D7FC40029DBAB /* Upcuisine.app */;
@@ -395,6 +398,7 @@
 			packageReferences = (
 				3D2DC1FB283FEE6900BE0B15 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				3D2DC2032840505900BE0B15 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				3D2FF3BC284A7B3A00F5287D /* XCRemoteSwiftPackageReference "StepperView" */,
 			);
 			productRefGroup = 3D57478B283D7FC40029DBAB /* Products */;
 			projectDirPath = "";
@@ -690,6 +694,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		3D2FF3BC284A7B3A00F5287D /* XCRemoteSwiftPackageReference "StepperView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/badrinathvm/StepperView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -702,6 +714,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3D2DC2032840505900BE0B15 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		3D2FF3BD284A7B3A00F5287D /* StepperView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D2FF3BC284A7B3A00F5287D /* XCRemoteSwiftPackageReference "StepperView" */;
+			productName = StepperView;
 		};
 /* End XCSwiftPackageProductDependency section */
 

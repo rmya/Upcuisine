@@ -35,27 +35,22 @@ class CartViewController: UIViewController {
         userName = "rumeysa_tan"
         cartPresenterObject?.loadCart(kullanici_adi: userName!)
         
-        if(cartList.isEmpty){
-            self.cartFoodTableView.isHidden = true
-            self.totolPriceLabel.isHidden = true
-            self.sumPriceLabel.isHidden = true
-            self.quickOrderButton.isHidden = true
-            self.emptyInfoView.isHidden = false
-        }else{
-            self.cartFoodTableView.isHidden = false
-            self.totolPriceLabel.isHidden = false
-            self.sumPriceLabel.isHidden = false
-            self.quickOrderButton.isHidden = false
-            self.emptyInfoView.isHidden = true
-        }
-        
-        var sumPrice = 0
-        for i in cartList {
-            sumPrice += Int(i.yemek_fiyat!)! * Int(i.yemek_siparis_adet!)!
-        }
-        self.sumPriceLabel.text = "\(String(describing: sumPrice)) ₺"
-    }
+//        if(cartList.isEmpty){
+//            self.cartFoodTableView.isHidden = true
+//            self.totolPriceLabel.isHidden = true
+//            self.sumPriceLabel.isHidden = true
+//            self.quickOrderButton.isHidden = true
+//            self.emptyInfoView.isHidden = false
+//        }else{
+//            self.cartFoodTableView.isHidden = false
+//            self.totolPriceLabel.isHidden = false
+//            self.sumPriceLabel.isHidden = false
+//            self.quickOrderButton.isHidden = false
+//            self.emptyInfoView.isHidden = true
+//        }
 
+    }
+    
 }
 
 extension CartViewController : PresenterToViewCartProtocol {
@@ -75,6 +70,25 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
             let item = tabItems[1]
             item.badgeValue = String(cartList.count)
         }
+        if(cartList.isEmpty){
+            self.cartFoodTableView.isHidden = true
+            self.totolPriceLabel.isHidden = true
+            self.sumPriceLabel.isHidden = true
+            self.quickOrderButton.isHidden = true
+            self.emptyInfoView.isHidden = false
+        }else{
+            self.cartFoodTableView.isHidden = false
+            self.totolPriceLabel.isHidden = false
+            self.sumPriceLabel.isHidden = false
+            self.quickOrderButton.isHidden = false
+            self.emptyInfoView.isHidden = true
+        }
+        
+        var sumPrice = 0
+        for i in cartList {
+            sumPrice += Int(i.yemek_fiyat!)! * Int(i.yemek_siparis_adet!)!
+        }
+        self.sumPriceLabel.text = "\(String(describing: sumPrice)) ₺"
         
         return cartList.count
     }

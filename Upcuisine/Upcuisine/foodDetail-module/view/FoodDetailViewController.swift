@@ -18,6 +18,9 @@ class FoodDetailViewController: UIViewController {
     
     var food : Foods?
     var foodDetailPresenterObject : ViewToPresenterFoodDetailProtocol?
+    var cartFoods = [CartFoods]()
+    var cartFoodsResponse = [AddFoodToCartResponse]()
+    var cartPresenterObject : ViewToPresenterCartProtocol?
     var userName : String?
     
     override func viewDidLoad() {
@@ -34,17 +37,37 @@ class FoodDetailViewController: UIViewController {
         }
         
         FoodDetailsRouter.createModule(ref: self)
+        CartRouter.createModule(ref: (self.navigationController?.tabBarController?.viewControllers?[1].children.first) as! CartViewController)
+        cartPresenterObject?.loadCart(kullanici_adi: userName ?? "rumeysa_tan")
 
     }
     @IBAction func foodCount(_ sender: UIStepper) {
         let foodCount = Int(sender.value)
         foodCountLabel.text = String(foodCount)
+        detailFoodPrice.text = String(Int(food!.yemek_fiyat!)! * foodCount) + "₺"
     }
     
     @IBAction func addToCartButton(_ sender: Any) {
-        if let fn = detailFoodName.text, let fc = foodCountLabel.text, let un = userName, let f = food{
-            foodDetailPresenterObject?.addToCart(yemek_adi: fn, yemek_resim_adi: (f.yemek_resim_adi!), yemek_fiyat:(f.yemek_fiyat!), yemek_siparis_adet: fc, kullanici_adi: un)
+                
+        var sameFood = false
+        for i in cartFoods {
+            if (food?.yemek_adi == i.yemek_adi) {
+                cartPresenterObject?.delete(sepet_yemek_id: i.sepet_yemek_id!, kullanici_adi: userName ?? "rumeysa_tan")
+                let newFoodCount = Int(foodCountLabel.text!)! + Int(i.yemek_siparis_adet!)!
+                if let fn = detailFoodName.text, let f = food{
+                    foodDetailPresenterObject?.addToCart(yemek_adi: fn, yemek_resim_adi: (f.yemek_resim_adi!), yemek_fiyat:(f.yemek_fiyat!), yemek_siparis_adet: String(newFoodCount), kullanici_adi: userName ?? "rumeysa_tan")
+                }
+                sameFood = true
+            }
+
         }
+        if(sameFood == false){
+            if let fn = detailFoodName.text, let fc = foodCountLabel.text, let f = food{
+                foodDetailPresenterObject?.addToCart(yemek_adi: fn, yemek_resim_adi: (f.yemek_resim_adi!), yemek_fiyat:(f.yemek_fiyat!), yemek_siparis_adet: fc, kullanici_adi: userName ?? "rumeysa_tan")
+            }
+        }
+
+        
         
         let message = "Your dish has been added to cart"
         let alert = UIAlertController(title:nil, message: message, preferredStyle: .alert)
@@ -54,8 +77,11 @@ class FoodDetailViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + duration) {
             alert.dismiss(animated: true)
         }
-        navigationController?.popToRootViewController(animated: true)
     }
-    
-    
+}
+
+extension FoodDetailViewController : PresenterToViewCartProtocol {
+    func sendDataToView(cartList: Array<CartFoods>) {
+        self.cartFoods =  cartList
+    }
 }
