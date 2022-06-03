@@ -25,7 +25,7 @@ class FoodDetailViewController: UIViewController {
         
         if let f = food {
             DispatchQueue.main.async {
-                let url = URL(string: "http://kasimadalan.pe.hu/yemekler/resimler/\(f.yemek_resim_adi!)")
+                let url = URL(string: URLs.foodImageURL + "\(f.yemek_resim_adi!)")
                 self.detailImageView.kf.setImage(with: url)
             }
             detailFoodName.text = f.yemek_adi
@@ -54,6 +54,7 @@ class FoodDetailViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + duration) {
             alert.dismiss(animated: true)
         }
+        navigationController?.popToRootViewController(animated: true)
     }
     
     

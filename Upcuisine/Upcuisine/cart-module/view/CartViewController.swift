@@ -26,6 +26,9 @@ class CartViewController: UIViewController {
         cartFoodTableView.dataSource = self
         
         CartRouter.createModule(ref: self)
+        
+        userName = "rumeysa_tan"
+        cartPresenterObject?.loadCart(kullanici_adi: userName!)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -40,11 +43,17 @@ class CartViewController: UIViewController {
             self.emptyInfoView.isHidden = false
         }else{
             self.cartFoodTableView.isHidden = false
-            self.totolPriceLabel.isHidden = true
-            self.sumPriceLabel.isHidden = true
+            self.totolPriceLabel.isHidden = false
+            self.sumPriceLabel.isHidden = false
             self.quickOrderButton.isHidden = false
             self.emptyInfoView.isHidden = true
         }
+        
+        var sumPrice = 0
+        for i in cartList {
+            sumPrice += Int(i.yemek_fiyat!)! * Int(i.yemek_siparis_adet!)!
+        }
+        self.sumPriceLabel.text = "\(String(describing: sumPrice)) ₺"
     }
 
 }
@@ -83,7 +92,7 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
         }
         cell.cartFoodPiece.text = "\(food.yemek_siparis_adet!)"
         DispatchQueue.main.async {
-            let url = URL(string: "http://kasimadalan.pe.hu/yemekler/resimler/\(food.yemek_resim_adi!)")
+            let url = URL(string: URLs.foodImageURL + "\(food.yemek_resim_adi!)")
             cell.cartFoodImage.kf.setImage(with: url)
         }
         return cell

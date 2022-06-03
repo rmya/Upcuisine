@@ -13,7 +13,10 @@ class FoodsInteractor : PresenterToInteractorFoodsProtocol {
     var foodsPresenter: InteractorToPresenterFoodsProtocol?
     
     func allFoods() {
-        AF.request("http://kasimadalan.pe.hu/yemekler/tumYemekleriGetir.php", method: .get).response { response in
+        
+        let url = URL(string: URLs.getAllFoodsURL)
+        
+        AF.request(url!, method: .get).response { response in
             if let data = response.data{
                 do{
                     let res = try JSONDecoder().decode(FoodsResponse.self, from: data)

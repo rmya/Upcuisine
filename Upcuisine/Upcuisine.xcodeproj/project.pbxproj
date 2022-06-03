@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2535822846ACA50003E3EB /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2535812846ACA50003E3EB /* URLs.swift */; };
+		3D2535862846B6770003E3EB /* AddFoodToCartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2535852846B6770003E3EB /* AddFoodToCartResponse.swift */; };
+		3D2535882846B6930003E3EB /* DeleteFoodFromCartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2535872846B6930003E3EB /* DeleteFoodFromCartResponse.swift */; };
 		3D2DC1D0283FAA6200BE0B15 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1CF283FAA6200BE0B15 /* FoodDetailViewController.swift */; };
 		3D2DC1D2283FAAD000BE0B15 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1D1283FAAD000BE0B15 /* CartViewController.swift */; };
 		3D2DC1DE283FC26600BE0B15 /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC1DD283FC26600BE0B15 /* FoodsViewController.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D2535812846ACA50003E3EB /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		3D2535852846B6770003E3EB /* AddFoodToCartResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodToCartResponse.swift; sourceTree = "<group>"; };
+		3D2535872846B6930003E3EB /* DeleteFoodFromCartResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFoodFromCartResponse.swift; sourceTree = "<group>"; };
 		3D2DC1CF283FAA6200BE0B15 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
 		3D2DC1D1283FAAD000BE0B15 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		3D2DC1DD283FC26600BE0B15 /* FoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D25357E2846A8DE0003E3EB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3D2535812846ACA50003E3EB /* URLs.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		3D2DC20028400FC700BE0B15 /* collectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +146,7 @@
 		3D57478C283D7FC40029DBAB /* Upcuisine */ = {
 			isa = PBXGroup;
 			children = (
+				3D25357E2846A8DE0003E3EB /* Constants */,
 				3D2DC20628405C8000BE0B15 /* Colors */,
 				3D5747C5283DAFA00029DBAB /* fonts */,
 				3D5747AA283D974D0029DBAB /* entity */,
@@ -195,6 +210,8 @@
 				3D2DC1FE283FF2C600BE0B15 /* FoodsResponse.swift */,
 				3D530C58284100780064B4C1 /* CartFoods.swift */,
 				3D530C5D284147AA0064B4C1 /* CartFoodsResponse.swift */,
+				3D2535852846B6770003E3EB /* AddFoodToCartResponse.swift */,
+				3D2535872846B6930003E3EB /* DeleteFoodFromCartResponse.swift */,
 			);
 			path = entity;
 			sourceTree = "<group>";
@@ -410,6 +427,7 @@
 				3D2DC2022840100100BE0B15 /* FoodCollectionViewCell.swift in Sources */,
 				3D5747C2283DA7D80029DBAB /* Foods.swift in Sources */,
 				3D2DC1F6283FC39200BE0B15 /* CartProtocol.swift in Sources */,
+				3D2535822846ACA50003E3EB /* URLs.swift in Sources */,
 				3D2DC1E2283FC2D400BE0B15 /* FoodsProtocol.swift in Sources */,
 				3D2DC1E6283FC2F400BE0B15 /* FoodsPresenter.swift in Sources */,
 				3D574792283D7FC40029DBAB /* ViewController.swift in Sources */,
@@ -417,9 +435,11 @@
 				3D57478E283D7FC40029DBAB /* AppDelegate.swift in Sources */,
 				3D2DC1F4283FC37C00BE0B15 /* CartInteractor.swift in Sources */,
 				3D2DC1EC283FC33200BE0B15 /* FoodDetailInteractor.swift in Sources */,
+				3D2535862846B6770003E3EB /* AddFoodToCartResponse.swift in Sources */,
 				3D2DC1EE283FC34100BE0B15 /* FoodDetailPresenter.swift in Sources */,
 				3D2DC1E4283FC2E400BE0B15 /* FoodsInteractor.swift in Sources */,
 				3D2DC1FF283FF2C600BE0B15 /* FoodsResponse.swift in Sources */,
+				3D2535882846B6930003E3EB /* DeleteFoodFromCartResponse.swift in Sources */,
 				3D2DC1FA283FC3AD00BE0B15 /* CartRouter.swift in Sources */,
 				3D530C5C284126670064B4C1 /* CartFoodTableViewCell.swift in Sources */,
 				3D2DC1DE283FC26600BE0B15 /* FoodsViewController.swift in Sources */,

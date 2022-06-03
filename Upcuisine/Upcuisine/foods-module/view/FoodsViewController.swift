@@ -69,7 +69,7 @@ extension FoodsViewController : UICollectionViewDelegate, UICollectionViewDataSo
         cell.foodPriceLabel.text = "\(food.yemek_fiyat!) ₺"
         
         DispatchQueue.main.async {
-            let url = URL(string: "http://kasimadalan.pe.hu/yemekler/resimler/\(food.yemek_resim_adi!)")
+            let url = URL(string: URLs.foodImageURL + "\(food.yemek_resim_adi!)")
             cell.foodImageView.kf.setImage(with: url)
         }
         cell.foodContentView.backgroundColor = UIColor.upColor(.background)
