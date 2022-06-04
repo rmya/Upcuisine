@@ -27,3 +27,7 @@
 
 ![Upcuisine screen](https://github.com/rmya/Upcuisine/blob/main/Upcuisine/UpcuisineSS.png)
 
+![Upcuisine detail](https://github.com/rmya/Upcuisine/blob/main/Upcuisine/detailSS.png)
+
+![Upcuisine cart](https://github.com/rmya/Upcuisine/blob/main/Upcuisine/cartSS.png)
+
