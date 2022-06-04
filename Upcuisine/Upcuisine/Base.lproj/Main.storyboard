@@ -40,28 +40,28 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnR-Om-Gr0">
-                                                            <rect key="frame" x="110" y="38.5" width="60" height="24"/>
+                                                            <rect key="frame" x="110" y="38.5" width="80" height="24"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" constant="60" id="gGt-AM-Pri"/>
+                                                                <constraint firstAttribute="width" constant="80" id="gGt-AM-Pri"/>
                                                             </constraints>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                             <color key="textColor" name="tabbarItem"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bZ0-2D-bls">
-                                                            <rect key="frame" x="180" y="26.5" width="113" height="47.5"/>
+                                                            <rect key="frame" x="200" y="26.5" width="93" height="47.5"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="8FQ-hY-kxA">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="113" height="47.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="93" height="47.5"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="piece" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79B-Dr-7Zc">
-                                                                            <rect key="frame" x="33.5" y="0.0" width="46.5" height="24"/>
+                                                                            <rect key="frame" x="23.5" y="0.0" width="46.5" height="24"/>
                                                                             <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                                                                             <color key="textColor" name="primary"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piece" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vpj-v0-gYf">
-                                                                            <rect key="frame" x="36.5" y="28" width="40" height="19.5"/>
+                                                                            <rect key="frame" x="26.5" y="28" width="40" height="19.5"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="19.5" id="ZB8-eA-02L"/>
                                                                             </constraints>
@@ -127,14 +127,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SH8-hf-FJV">
                                 <rect key="frame" x="236" y="746" width="151.5" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="QUICK ORDER">
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Helvetica"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="QUICK ORDER" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="quickOrder:" destination="kbO-Zl-pRa" eventType="touchUpInside" id="dxg-5O-fro"/>
@@ -213,20 +207,20 @@
                                             <constraint firstAttribute="height" constant="400" id="bg3-pA-v7R"/>
                                         </constraints>
                                     </mapView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Ipsum dolar sit amet." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yf-bq-JvX">
-                                        <rect key="frame" x="16" y="527" width="217.5" height="21.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yf-bq-JvX">
+                                        <rect key="frame" x="16" y="527" width="0.0" height="0.0"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                         <color key="textColor" name="tabbarItem"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Method" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bmv-OT-sh4">
-                                        <rect key="frame" x="24" y="564.5" width="169" height="26"/>
+                                        <rect key="frame" x="24" y="543" width="169" height="26"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                         <color key="textColor" name="tabbarItem"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yiz-Bm-dPS">
-                                        <rect key="frame" x="16" y="606.5" width="201.5" height="25"/>
+                                        <rect key="frame" x="16" y="585" width="201.5" height="25"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="radio_button_checked" translatesAutoresizingMaskIntoConstraints="NO" id="lHa-Mo-mED">
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="25"/>
@@ -247,14 +241,8 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7V8-IO-G6M">
                                         <rect key="frame" x="163" y="674" width="89.5" height="35"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="ORDER">
-                                                    <attributes>
-                                                        <font key="NSFont" size="18" name="Helvetica"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
+                                        <buttonConfiguration key="configuration" style="filled" title="ORDER" cornerStyle="capsule">
+                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="orderButtonAction:" destination="MiW-fr-U13" eventType="touchUpInside" id="hKX-Xw-wMm"/>
@@ -317,7 +305,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="orderComplate" translatesAutoresizingMaskIntoConstraints="NO" id="PX7-7s-Yjg">
-                                <rect key="frame" x="30" y="312.5" width="354" height="304.5"/>
+                                <rect key="frame" x="30" y="337" width="354" height="266"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your order will be immediately prepared and sent by our courier." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDI-JQ-uuu">
                                 <rect key="frame" x="40" y="168" width="334" height="104.5"/>
@@ -328,15 +316,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1X-LI-vhT">
                                 <rect key="frame" x="116" y="713" width="182.5" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="ANOTHER ORDER">
-                                            <attributes>
-                                                <font key="NSFont" size="18" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <buttonConfiguration key="configuration" style="filled" title="ANOTHER ORDER" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="anotherOrderButton:" destination="DtA-IS-3Ap" eventType="touchUpInside" id="KQ6-vT-2Dl"/>
@@ -349,12 +330,11 @@
                         <constraints>
                             <constraint firstItem="PX7-7s-Yjg" firstAttribute="leading" secondItem="ImY-cQ-6QD" secondAttribute="leading" constant="30" id="1Jk-kd-ELC"/>
                             <constraint firstItem="ImY-cQ-6QD" firstAttribute="bottom" secondItem="L1X-LI-vhT" secondAttribute="bottom" constant="65" id="3LF-jl-Efd"/>
-                            <constraint firstItem="PX7-7s-Yjg" firstAttribute="top" secondItem="DDI-JQ-uuu" secondAttribute="bottom" constant="40" id="5bN-Zc-6BJ"/>
                             <constraint firstItem="L1X-LI-vhT" firstAttribute="centerX" secondItem="w94-YJ-aw8" secondAttribute="centerX" id="Nid-3g-pm7"/>
                             <constraint firstItem="DDI-JQ-uuu" firstAttribute="leading" secondItem="ImY-cQ-6QD" secondAttribute="leading" constant="40" id="YOd-Cr-Xat"/>
                             <constraint firstItem="ImY-cQ-6QD" firstAttribute="trailing" secondItem="PX7-7s-Yjg" secondAttribute="trailing" constant="30" id="arf-gp-ete"/>
                             <constraint firstAttribute="trailing" secondItem="DDI-JQ-uuu" secondAttribute="trailing" constant="40" id="bPV-7P-0w5"/>
-                            <constraint firstItem="ImY-cQ-6QD" firstAttribute="bottom" secondItem="PX7-7s-Yjg" secondAttribute="bottom" constant="196" id="h01-DA-leZ"/>
+                            <constraint firstItem="L1X-LI-vhT" firstAttribute="top" secondItem="PX7-7s-Yjg" secondAttribute="bottom" constant="110" id="lWQ-a8-wdN"/>
                             <constraint firstItem="DDI-JQ-uuu" firstAttribute="top" secondItem="ImY-cQ-6QD" secondAttribute="top" constant="80" id="pfR-60-rX9"/>
                         </constraints>
                     </view>
@@ -491,9 +471,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0C-NE-cQh">
-                                <rect key="frame" x="20" y="548.5" width="374" height="116.5"/>
+                                <rect key="frame" x="20" y="548.5" width="374" height="93.5"/>
                                 <string key="text">Someone once famously said that “the way to a man’s heart is through his stomach.” Food can genuinely move hearts, win your friends and make amends in relationships where other things may not work.                        </string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" name="tabbarItem"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -504,7 +484,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THIS FOOD THAT FOOD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVP-rV-GhK">
-                                <rect key="frame" x="70" y="675" width="274" height="35"/>
+                                <rect key="frame" x="70" y="652" width="274" height="35"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="32"/>
                                 <color key="textColor" name="primaryDark"/>
                                 <nil key="highlightedColor"/>
@@ -587,7 +567,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvB-aD-e1M">
-                                <rect key="frame" x="121" y="760" width="172" height="39.5"/>
+                                <rect key="frame" x="121" y="737" width="172" height="39.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="ADD TO CART" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
@@ -744,7 +724,7 @@
         <image name="orderComplate" width="243" height="266"/>
         <image name="radio_button_checked" width="13" height="13"/>
         <image name="restaurant_menu" width="12" height="12"/>
-        <image name="star" width="96" height="96"/>
+        <image name="star" width="64" height="64"/>
         <namedColor name="background">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -755,13 +735,13 @@
             <color red="0.88999998569488525" green="0.31799998879432678" blue="0.51399999856948853" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="primaryDark">
-            <color red="0.67843137254901964" green="0.078431372549019607" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.67799997329711914" green="0.078000001609325409" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondary">
             <color red="0.80000001192092896" green="0.72500002384185791" blue="0.7369999885559082" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="tabbarItem">
-            <color red="0.67843137254901964" green="0.078431372549019607" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.67799997329711914" green="0.078000001609325409" blue="0.34099999070167542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

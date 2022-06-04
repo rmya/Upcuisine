@@ -15,6 +15,9 @@ class OrderViewController: UIViewController{
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var address: UILabel!
     
+    var cartFoods = [CartFoods]()
+    var cartPresenterObject : ViewToPresenterCartProtocol?
+    
     var locationManager : CLLocationManager = CLLocationManager()
     let request = MKLocalSearch.Request()
     
@@ -38,7 +41,9 @@ class OrderViewController: UIViewController{
     }
     
     @IBAction func orderButtonAction(_ sender: Any) {
-        performSegue(withIdentifier: "orderComplate", sender: nil)
+        
+//        TODO: add update the view, send cartList info to service
+//        performSegue(withIdentifier: "orderComplate", sender: nil)
     }
     
 }

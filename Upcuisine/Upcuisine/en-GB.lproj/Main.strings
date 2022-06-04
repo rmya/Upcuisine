@@ -1,0 +1,114 @@
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "2ao-Eu-Pce"; */
+"2ao-Eu-Pce.text" = "Name";
+
+/* Class = "UILabel"; text = "Cash on Delivery"; ObjectID = "4Hv-e0-8qN"; */
+"4Hv-e0-8qN.text" = "Cash on Delivery";
+
+/* Class = "UILabel"; text = "Lorem Ipsum dolar sit amet."; ObjectID = "5yf-bq-JvX"; */
+"5yf-bq-JvX.text" = "Lorem Ipsum dolar sit amet.";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "6T6-Ob-ACl"; */
+"6T6-Ob-ACl.text" = "Price";
+
+/* Class = "UILabel"; text = "piece"; ObjectID = "79B-Dr-7Zc"; */
+"79B-Dr-7Zc.text" = "piece";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Ft-Gp-I1o"; */
+"7Ft-Gp-I1o.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "ORDER"; ObjectID = "7V8-IO-G6M"; */
+"7V8-IO-G6M.configuration.title" = "ORDER";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7V8-IO-G6M"; */
+"7V8-IO-G6M.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "ADY-EX-tf8"; */
+"ADY-EX-tf8.text" = "1";
+
+/* Class = "UILabel"; text = "Payment Method"; ObjectID = "Bmv-OT-sh4"; */
+"Bmv-OT-sh4.text" = "Payment Method";
+
+/* Class = "UILabel"; text = "Recommended"; ObjectID = "Bwb-nZ-sRw"; */
+"Bwb-nZ-sRw.text" = "Recommended";
+
+/* Class = "UILabel"; text = "Your order will be immediately prepared and sent by our courier."; ObjectID = "DDI-JQ-uuu"; */
+"DDI-JQ-uuu.text" = "Your order will be immediately prepared and sent by our courier.";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "Ex7-6K-ldB"; */
+"Ex7-6K-ldB.text" = "name";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "JR7-bM-H4U"; */
+"JR7-bM-H4U.text" = "price";
+
+/* Class = "UIButton"; configuration.title = "ANOTHER ORDER"; ObjectID = "L1X-LI-vhT"; */
+"L1X-LI-vhT.configuration.title" = "ANOTHER ORDER";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "L1X-LI-vhT"; */
+"L1X-LI-vhT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Total Price"; ObjectID = "LUx-ie-Tc6"; */
+"LUx-ie-Tc6.text" = "Total Price";
+
+/* Class = "UITabBarItem"; title = "Menu"; ObjectID = "MhM-Eh-3Rl"; */
+"MhM-Eh-3Rl.title" = "Menu";
+
+/* Class = "UILabel"; text = "Add yummy from the menu"; ObjectID = "Q3n-Qj-K8l"; */
+"Q3n-Qj-K8l.text" = "Add yummy from the menu";
+
+/* Class = "UIButton"; configuration.title = "QUICK ORDER"; ObjectID = "SH8-hf-FJV"; */
+"SH8-hf-FJV.configuration.title" = "QUICK ORDER";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SH8-hf-FJV"; */
+"SH8-hf-FJV.normalTitle" = "Button";
+
+/* Class = "UISearchBar"; placeholder = "Search your address"; ObjectID = "Tkr-iO-Hoj"; */
+"Tkr-iO-Hoj.placeholder" = "Search your address";
+
+/* Class = "UILabel"; text = "Piece"; ObjectID = "Vpj-v0-gYf"; */
+"Vpj-v0-gYf.text" = "Piece";
+
+/* Class = "UILabel"; text = "Someone once famously said that “the way to a man’s heart is through his stomach.” Food can genuinely move hearts, win your friends and make amends in relationships where other things may not work.                        "; ObjectID = "X0C-NE-cQh"; */
+"X0C-NE-cQh.text" = "Someone once famously said that “the way to a man’s heart is through his stomach.” Food can genuinely move hearts, win your friends and make amends in relationships where other things may not work.                        ";
+
+/* Class = "UILabel"; text = "THIS FOOD THAT FOOD"; ObjectID = "XVP-rV-GhK"; */
+"XVP-rV-GhK.text" = "THIS FOOD THAT FOOD";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "XnR-Om-Gr0"; */
+"XnR-Om-Gr0.text" = "name";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "YdE-Zs-JYJ"; */
+"YdE-Zs-JYJ.text" = "Address";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "aYC-OJ-23t"; */
+"aYC-OJ-23t.text" = "Detail";
+
+/* Class = "UILabel"; text = "30-35 min"; ObjectID = "fDG-dk-r6L"; */
+"fDG-dk-r6L.text" = "30-35 min";
+
+/* Class = "UILabel"; text = "39.90"; ObjectID = "fTu-p2-S3j"; */
+"fTu-p2-S3j.text" = "39.90";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CART"; ObjectID = "fvB-aD-e1M"; */
+"fvB-aD-e1M.configuration.title" = "ADD TO CART";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fvB-aD-e1M"; */
+"fvB-aD-e1M.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Your Cart is Empty"; ObjectID = "hpQ-OB-m3f"; */
+"hpQ-OB-m3f.text" = "Your Cart is Empty";
+
+/* Class = "UILabel"; text = "365 kcal"; ObjectID = "kwl-Of-9tA"; */
+"kwl-Of-9tA.text" = "365 kcal";
+
+/* Class = "UINavigationItem"; title = "What would you like to eat?"; ObjectID = "kzT-IG-92f"; */
+"kzT-IG-92f.title" = "What would you like to eat?";
+
+/* Class = "UINavigationItem"; title = "Order Informations"; ObjectID = "rl0-dc-tcQ"; */
+"rl0-dc-tcQ.title" = "Order Informations";
+
+/* Class = "UINavigationItem"; title = "My Cart"; ObjectID = "tmA-57-rgs"; */
+"tmA-57-rgs.title" = "My Cart";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "z3q-Sf-gWn"; */
+"z3q-Sf-gWn.title" = "Cart";
