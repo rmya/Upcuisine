@@ -21,7 +21,8 @@
     - if there is food the quantity is updated,
     - The user is informed with the Alert.
 * Sum Total Price and update when item is deleted (Cart)
-* Show cartList.count on tabbar banner and update
+* Show emtyStackView when cart is empty
+* Show cartList.count on tabbarBadge and update
 
 
 ![Upcuisine screen](https://github.com/rmya/Upcuisine/blob/main/Upcuisine/UpcuisineSS.png)
