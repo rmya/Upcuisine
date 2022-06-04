@@ -4,7 +4,7 @@
 
 * For foods screen : [foods-module](https://github.com/rmya/Upcuisine/tree/main/Upcuisine/Upcuisine/foods-module)
 * For foodDetail screen : [foodDetail-module](https://github.com/rmya/Upcuisine/tree/main/Upcuisine/Upcuisine/foodDetail-module)
-* For Cart screen : [cartModule](https://github.com/rmya/Upcuisine/tree/main/Upcuisine/Upcuisine/cart-module)
+* For Cart screen : [cart-Module](https://github.com/rmya/Upcuisine/tree/main/Upcuisine/Upcuisine/cart-module)
 
 ### Lib's
 - I used [Kingfisher](https://github.com/onevcat/Kingfisher) to view extensions and set an image directly from a URL.
