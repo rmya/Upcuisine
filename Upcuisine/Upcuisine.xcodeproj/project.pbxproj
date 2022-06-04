@@ -31,8 +31,6 @@
 		3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2DC2042840505900BE0B15 /* Kingfisher */; };
 		3D2DC20828405C9B00BE0B15 /* UPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC20728405C9B00BE0B15 /* UPColors.swift */; };
 		3D2FF3BE284A7B3A00F5287D /* StepperView in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2FF3BD284A7B3A00F5287D /* StepperView */; };
-		3D2FF3C1284AB0B400F5287D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2FF3C0284AB0B400F5287D /* CoreLocation.framework */; };
-		3D2FF3C3284AB0D200F5287D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2FF3C2284AB0D200F5287D /* MapKit.framework */; };
 		3D2FF3CC284AB60D00F5287D /* OrderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FF3CB284AB60D00F5287D /* OrderProtocol.swift */; };
 		3D2FF3CE284AB61B00F5287D /* OrderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FF3CD284AB61B00F5287D /* OrderInteractor.swift */; };
 		3D2FF3D0284AB62B00F5287D /* OrderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FF3CF284AB62B00F5287D /* OrderPresenter.swift */; };
@@ -51,6 +49,8 @@
 		3D57479D283D7FC50029DBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D57479B283D7FC50029DBAB /* LaunchScreen.storyboard */; };
 		3D5747C2283DA7D80029DBAB /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5747C1283DA7D80029DBAB /* Foods.swift */; };
 		3D5747C7283DAFBE0029DBAB /* Rock_Salt in Resources */ = {isa = PBXBuildFile; fileRef = 3D5747C6283DAFBE0029DBAB /* Rock_Salt */; };
+		3D753FBC284BAA36007B7B07 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2FF3C0284AB0B400F5287D /* CoreLocation.framework */; };
+		3D753FBF284BAA39007B7B07 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2FF3C2284AB0D200F5287D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,9 +108,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2FF3C1284AB0B400F5287D /* CoreLocation.framework in Frameworks */,
 				3D2FF3BE284A7B3A00F5287D /* StepperView in Frameworks */,
-				3D2FF3C3284AB0D200F5287D /* MapKit.framework in Frameworks */,
+				3D753FBC284BAA36007B7B07 /* CoreLocation.framework in Frameworks */,
+				3D753FBF284BAA39007B7B07 /* MapKit.framework in Frameworks */,
 				3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */,
 				3D2DC1FD283FEE6900BE0B15 /* Alamofire in Frameworks */,
 			);

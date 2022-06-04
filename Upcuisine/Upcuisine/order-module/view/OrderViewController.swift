@@ -42,6 +42,15 @@ class OrderViewController: UIViewController{
     
     @IBAction func orderButtonAction(_ sender: Any) {
         
+        let message = "We will notify you when this service is added"
+        let alert = UIAlertController(title:nil, message: message, preferredStyle: .alert)
+        self.present(alert, animated: true)
+        
+        let duration : Double = 1
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + duration) {
+            alert.dismiss(animated: true)
+        }
+        
 //        TODO: add update the view, send cartList info to service
 //        performSegue(withIdentifier: "orderComplate", sender: nil)
     }

@@ -72,6 +72,12 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
             let item = tabItems[1]
             item.badgeValue = String(cartList.count)
         }
+        var sumPrice = 0
+        for i in cartList {
+            sumPrice += Int(i.yemek_fiyat!)! * Int(i.yemek_siparis_adet!)!
+        }
+        self.sumPriceLabel.text = "\(String(describing: sumPrice)) ₺"
+        
         if(cartList.isEmpty){
             self.cartFoodTableView.isHidden = true
             self.totolPriceLabel.isHidden = true
@@ -85,13 +91,6 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
             self.quickOrderButton.isHidden = false
             self.emptyInfoView.isHidden = true
         }
-        
-        var sumPrice = 0
-        for i in cartList {
-            sumPrice += Int(i.yemek_fiyat!)! * Int(i.yemek_siparis_adet!)!
-        }
-        self.sumPriceLabel.text = "\(String(describing: sumPrice)) ₺"
-        
         return cartList.count
     }
     
