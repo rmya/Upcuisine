@@ -31,6 +31,14 @@
 		3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2DC2042840505900BE0B15 /* Kingfisher */; };
 		3D2DC20828405C9B00BE0B15 /* UPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2DC20728405C9B00BE0B15 /* UPColors.swift */; };
 		3D2FF3BE284A7B3A00F5287D /* StepperView in Frameworks */ = {isa = PBXBuildFile; productRef = 3D2FF3BD284A7B3A00F5287D /* StepperView */; };
+		3D2FF3C1284AB0B400F5287D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2FF3C0284AB0B400F5287D /* CoreLocation.framework */; };
+		3D2FF3C3284AB0D200F5287D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2FF3C2284AB0D200F5287D /* MapKit.framework */; };
+		3D2FF3CC284AB60D00F5287D /* OrderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FF3CB284AB60D00F5287D /* OrderProtocol.swift */; };
+		3D2FF3CE284AB61B00F5287D /* OrderInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FF3CD284AB61B00F5287D /* OrderInteractor.swift */; };
+		3D2FF3D0284AB62B00F5287D /* OrderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FF3CF284AB62B00F5287D /* OrderPresenter.swift */; };
+		3D2FF3D2284AB64C00F5287D /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FF3D1284AB64C00F5287D /* OrderViewController.swift */; };
+		3D2FF3D4284AB66900F5287D /* OrderRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FF3D3284AB66900F5287D /* OrderRouter.swift */; };
+		3D2FF3D8284AD42B00F5287D /* OrderComplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FF3D7284AD42B00F5287D /* OrderComplateViewController.swift */; };
 		3D530C59284100780064B4C1 /* CartFoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530C58284100780064B4C1 /* CartFoods.swift */; };
 		3D530C5C284126670064B4C1 /* CartFoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530C5B284126670064B4C1 /* CartFoodTableViewCell.swift */; };
 		3D530C5E284147AA0064B4C1 /* CartFoodsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D530C5D284147AA0064B4C1 /* CartFoodsResponse.swift */; };
@@ -67,6 +75,14 @@
 		3D2DC1FE283FF2C600BE0B15 /* FoodsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsResponse.swift; sourceTree = "<group>"; };
 		3D2DC2012840100100BE0B15 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		3D2DC20728405C9B00BE0B15 /* UPColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPColors.swift; sourceTree = "<group>"; };
+		3D2FF3C0284AB0B400F5287D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D2FF3C2284AB0D200F5287D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3D2FF3CB284AB60D00F5287D /* OrderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderProtocol.swift; sourceTree = "<group>"; };
+		3D2FF3CD284AB61B00F5287D /* OrderInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderInteractor.swift; sourceTree = "<group>"; };
+		3D2FF3CF284AB62B00F5287D /* OrderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPresenter.swift; sourceTree = "<group>"; };
+		3D2FF3D1284AB64C00F5287D /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		3D2FF3D3284AB66900F5287D /* OrderRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRouter.swift; sourceTree = "<group>"; };
+		3D2FF3D7284AD42B00F5287D /* OrderComplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderComplateViewController.swift; sourceTree = "<group>"; };
 		3D530C58284100780064B4C1 /* CartFoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartFoods.swift; sourceTree = "<group>"; };
 		3D530C5B284126670064B4C1 /* CartFoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartFoodTableViewCell.swift; sourceTree = "<group>"; };
 		3D530C5D284147AA0064B4C1 /* CartFoodsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartFoodsResponse.swift; sourceTree = "<group>"; };
@@ -88,7 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2FF3C1284AB0B400F5287D /* CoreLocation.framework in Frameworks */,
 				3D2FF3BE284A7B3A00F5287D /* StepperView in Frameworks */,
+				3D2FF3C3284AB0D200F5287D /* MapKit.framework in Frameworks */,
 				3D2DC2052840505900BE0B15 /* Kingfisher in Frameworks */,
 				3D2DC1FD283FEE6900BE0B15 /* Alamofire in Frameworks */,
 			);
@@ -121,6 +139,83 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		3D2FF3BF284AB0B400F5287D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FF3C2284AB0D200F5287D /* MapKit.framework */,
+				3D2FF3C0284AB0B400F5287D /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D2FF3C5284AB57B00F5287D /* order-module */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FF3CA284AB5E600F5287D /* router */,
+				3D2FF3C9284AB5E000F5287D /* view */,
+				3D2FF3C8284AB5D800F5287D /* presenter */,
+				3D2FF3C7284AB5CC00F5287D /* interactor */,
+				3D2FF3C6284AB5B700F5287D /* protocol */,
+			);
+			path = "order-module";
+			sourceTree = "<group>";
+		};
+		3D2FF3C6284AB5B700F5287D /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FF3CB284AB60D00F5287D /* OrderProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		3D2FF3C7284AB5CC00F5287D /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FF3CD284AB61B00F5287D /* OrderInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		3D2FF3C8284AB5D800F5287D /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FF3CF284AB62B00F5287D /* OrderPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		3D2FF3C9284AB5E000F5287D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FF3D1284AB64C00F5287D /* OrderViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3D2FF3CA284AB5E600F5287D /* router */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FF3D3284AB66900F5287D /* OrderRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		3D2FF3D5284AD40100F5287D /* orderComplate-module */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FF3D6284AD41500F5287D /* view */,
+			);
+			path = "orderComplate-module";
+			sourceTree = "<group>";
+		};
+		3D2FF3D6284AD41500F5287D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3D2FF3D7284AD42B00F5287D /* OrderComplateViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		3D530C5A284126490064B4C1 /* tableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +229,7 @@
 			children = (
 				3D57478C283D7FC40029DBAB /* Upcuisine */,
 				3D57478B283D7FC40029DBAB /* Products */,
+				3D2FF3BF284AB0B400F5287D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +248,8 @@
 				3D2DC20628405C8000BE0B15 /* Colors */,
 				3D5747C5283DAFA00029DBAB /* fonts */,
 				3D5747AA283D974D0029DBAB /* entity */,
+				3D2FF3D5284AD40100F5287D /* orderComplate-module */,
+				3D2FF3C5284AB57B00F5287D /* order-module */,
 				3D5747A8283D850A0029DBAB /* cart-module */,
 				3D5747A7283D849F0029DBAB /* foodDetail-module */,
 				3D5747A5283D83880029DBAB /* foods-module */,
@@ -431,11 +529,13 @@
 				3D2DC2022840100100BE0B15 /* FoodCollectionViewCell.swift in Sources */,
 				3D5747C2283DA7D80029DBAB /* Foods.swift in Sources */,
 				3D2DC1F6283FC39200BE0B15 /* CartProtocol.swift in Sources */,
+				3D2FF3D0284AB62B00F5287D /* OrderPresenter.swift in Sources */,
 				3D2535822846ACA50003E3EB /* URLs.swift in Sources */,
 				3D2DC1E2283FC2D400BE0B15 /* FoodsProtocol.swift in Sources */,
 				3D2DC1E6283FC2F400BE0B15 /* FoodsPresenter.swift in Sources */,
 				3D574792283D7FC40029DBAB /* ViewController.swift in Sources */,
 				3D2DC1D0283FAA6200BE0B15 /* FoodDetailViewController.swift in Sources */,
+				3D2FF3CC284AB60D00F5287D /* OrderProtocol.swift in Sources */,
 				3D57478E283D7FC40029DBAB /* AppDelegate.swift in Sources */,
 				3D2DC1F4283FC37C00BE0B15 /* CartInteractor.swift in Sources */,
 				3D2DC1EC283FC33200BE0B15 /* FoodDetailInteractor.swift in Sources */,
@@ -445,7 +545,9 @@
 				3D2DC1FF283FF2C600BE0B15 /* FoodsResponse.swift in Sources */,
 				3D2535882846B6930003E3EB /* DeleteFoodFromCartResponse.swift in Sources */,
 				3D2DC1FA283FC3AD00BE0B15 /* CartRouter.swift in Sources */,
+				3D2FF3D8284AD42B00F5287D /* OrderComplateViewController.swift in Sources */,
 				3D530C5C284126670064B4C1 /* CartFoodTableViewCell.swift in Sources */,
+				3D2FF3D2284AB64C00F5287D /* OrderViewController.swift in Sources */,
 				3D2DC1DE283FC26600BE0B15 /* FoodsViewController.swift in Sources */,
 				3D574790283D7FC40029DBAB /* SceneDelegate.swift in Sources */,
 				3D2DC1E8283FC30200BE0B15 /* FoodsRouter.swift in Sources */,
@@ -455,6 +557,8 @@
 				3D2DC1EA283FC32100BE0B15 /* FoodDetailProtocols.swift in Sources */,
 				3D574798283D7FC40029DBAB /* Upcuisine.xcdatamodeld in Sources */,
 				3D2DC1F0283FC34D00BE0B15 /* FoodDetailRouter.swift in Sources */,
+				3D2FF3CE284AB61B00F5287D /* OrderInteractor.swift in Sources */,
+				3D2FF3D4284AB66900F5287D /* OrderRouter.swift in Sources */,
 				3D530C5E284147AA0064B4C1 /* CartFoodsResponse.swift in Sources */,
 				3D530C59284100780064B4C1 /* CartFoods.swift in Sources */,
 			);
@@ -608,9 +712,11 @@
 				DEVELOPMENT_TEAM = RT5UP3L47X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Upcuisine/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location tracking trace";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -636,9 +742,11 @@
 				DEVELOPMENT_TEAM = RT5UP3L47X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Upcuisine/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location tracking trace";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

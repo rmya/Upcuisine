@@ -34,22 +34,24 @@ class CartViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         userName = "rumeysa_tan"
         cartPresenterObject?.loadCart(kullanici_adi: userName!)
-        
-//        if(cartList.isEmpty){
-//            self.cartFoodTableView.isHidden = true
-//            self.totolPriceLabel.isHidden = true
-//            self.sumPriceLabel.isHidden = true
-//            self.quickOrderButton.isHidden = true
-//            self.emptyInfoView.isHidden = false
-//        }else{
-//            self.cartFoodTableView.isHidden = false
-//            self.totolPriceLabel.isHidden = false
-//            self.sumPriceLabel.isHidden = false
-//            self.quickOrderButton.isHidden = false
-//            self.emptyInfoView.isHidden = true
-//        }
 
     }
+    
+    @IBAction func quickOrder(_ sender: Any) {
+        if cartList.count > 0 {
+//            later sender must be cartList
+            performSegue(withIdentifier: "order", sender: nil)
+        }else{
+            let message = "Your cart is empty"
+            let alert = UIAlertController(title:nil, message: message, preferredStyle: .alert)
+            self.present(alert, animated: true)
+            let duration : Double = 0.5
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + duration) {
+                alert.dismiss(animated: true)
+            }
+        }
+    }
+    
     
 }
 
