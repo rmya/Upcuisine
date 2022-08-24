@@ -21,15 +21,12 @@ class FoodsViewController: UIViewController {
         foodCollectionView.dataSource = self
         
         FoodsRouter.createModule(ref: self)
-        
+            
         let layout = UICollectionViewFlowLayout()
-        layout.sectionInset = UIEdgeInsets(top: 10, left: 0, bottom: 10, right:0)
+        layout.scrollDirection = .vertical
         layout.minimumLineSpacing = 10
         layout.minimumInteritemSpacing = 10
-        let witdh = foodCollectionView.frame.size.width
-        let cellWitdh = (witdh - 20) / 2
-        layout.itemSize = CGSize(width: cellWitdh, height: 180)
-        foodCollectionView.collectionViewLayout = layout
+        foodCollectionView.setCollectionViewLayout(layout, animated: true)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -86,5 +83,18 @@ extension FoodsViewController : UICollectionViewDelegate, UICollectionViewDataSo
         collectionView.deselectItem(at: indexPath, animated: true)
     }
     
+}
+
+extension FoodsViewController : UICollectionViewDelegateFlowLayout{
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 1.0, left: 1.0, bottom: 1.0, right:1.0)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let gridLayout = collectionViewLayout as! UICollectionViewFlowLayout
+        let widthPerItem = collectionView.frame.size.width / 2 - gridLayout.minimumInteritemSpacing
+        return CGSize(width:widthPerItem, height:180)
+    }
+
 }

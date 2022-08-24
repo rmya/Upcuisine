@@ -20,7 +20,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "0646752B-5B67-48DA-9B87-A7FB13614D61 - 4360331f402d4bc8"
+                  uuid = "0646752B-5B67-48DA-9B87-A7FB13614D61 - 4360331f402d4b2b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/interactor/FoodsInteractor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
                   offsetFromSymbolStart = "372">
                </Location>
                <Location
-                  uuid = "0646752B-5B67-48DA-9B87-A7FB13614D61 - 4360331f402d4bc8"
+                  uuid = "0646752B-5B67-48DA-9B87-A7FB13614D61 - 4360331f402d4b2b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,8 +45,8 @@
                   urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/interactor/FoodsInteractor.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
                   offsetFromSymbolStart = "416">
                </Location>
             </Locations>
@@ -66,54 +66,6 @@
             endingLineNumber = "24"
             landmarkName = "allFoods()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A386B13-7DC8-4319-9421-EBC3C1ACAA1C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Upcuisine/foods-module/interactor/FoodsInteractor.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "allFoods()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1A386B13-7DC8-4319-9421-EBC3C1ACAA1C - 4360331f402d4a75"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Upcuisine.FoodsInteractor.allFoods() -&gt; ()"
-                  moduleName = "Upcuisine"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/interactor/FoodsInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "92">
-               </Location>
-               <Location
-                  uuid = "1A386B13-7DC8-4319-9421-EBC3C1ACAA1C - 4360331f402d4a75"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Upcuisine.FoodsInteractor.allFoods() -&gt; ()"
-                  moduleName = "Upcuisine"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/interactor/FoodsInteractor.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "180">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -295,22 +247,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A0B6941E-28CF-4779-B3BA-736DF635DD87"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "addToCartButton(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "73D7087C-A94F-4623-A89F-E0D1BBBCEB93"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -327,16 +263,608 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "491BAE68-D655-45DA-A869-FD7BD82B7013"
+            uuid = "0CFA7F5E-2EDB-4863-AB53-F70D52AF80CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/view/FoodsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "891B9612-AAA0-403D-9D27-A96DC408FE25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/view/FoodsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "sendDataToView(foodList:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "825D439D-1DC3-49F3-81C0-7604E9A446DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/view/FoodsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A8265C3-446E-432D-BE74-3D327A2FF3D5"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "foodCount(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "533814E6-B993-4081-B8CD-FF74AFFB68CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "foodCount(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "014A33B8-284C-4412-81A1-0D07394C66D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "014A33B8-284C-4412-81A1-0D07394C66D3 - 965d8f4c46bd3b24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "014A33B8-284C-4412-81A1-0D07394C66D3 - 965d8f4c46bd3b24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AEADD83-C4FA-4FBF-B66D-75FA52D26A36"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "FoodDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1AEADD83-C4FA-4FBF-B66D-75FA52D26A36 - 2c4f627bf9134187"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.food.getter : Swift.Optional&lt;Upcuisine.Foods&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "1AEADD83-C4FA-4FBF-B66D-75FA52D26A36 - 2eaef204224d3593"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.food.setter : Swift.Optional&lt;Upcuisine.Foods&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "1AEADD83-C4FA-4FBF-B66D-75FA52D26A36 - 8fc2813ed4bec31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.food.modify : Swift.Optional&lt;Upcuisine.Foods&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1AEADD83-C4FA-4FBF-B66D-75FA52D26A36 - 4ddca3eb133b525d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.food.modify : Swift.Optional&lt;Upcuisine.Foods&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1AEADD83-C4FA-4FBF-B66D-75FA52D26A36 - 49cd235ea1835664"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Upcuisine.FoodDetailViewController"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "1AEADD83-C4FA-4FBF-B66D-75FA52D26A36 - 36b3fa54e95e6138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Upcuisine.FoodDetailViewController&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C43CB4E3-DB9E-4676-97C9-EDBFC01F2EE6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "FoodDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C43CB4E3-DB9E-4676-97C9-EDBFC01F2EE6 - 4256aff6649d1493"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.cartFoods.getter : Swift.Array&lt;Upcuisine.CartFoods&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C43CB4E3-DB9E-4676-97C9-EDBFC01F2EE6 - 5bf91b3dc0eeb67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.cartFoods.setter : Swift.Array&lt;Upcuisine.CartFoods&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C43CB4E3-DB9E-4676-97C9-EDBFC01F2EE6 - d9b777d6d8f3be6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.cartFoods.modify : Swift.Array&lt;Upcuisine.CartFoods&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "C43CB4E3-DB9E-4676-97C9-EDBFC01F2EE6 - 2a4da5ec9033159b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.cartFoods.modify : Swift.Array&lt;Upcuisine.CartFoods&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "C43CB4E3-DB9E-4676-97C9-EDBFC01F2EE6 - 49cd235ea183562a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Upcuisine.FoodDetailViewController"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "C43CB4E3-DB9E-4676-97C9-EDBFC01F2EE6 - 36b3fa54e95e6176"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Upcuisine.FoodDetailViewController&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "412">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE8FC828-AE07-42D3-9D28-8B2AEBEA2A69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "FoodDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CE8FC828-AE07-42D3-9D28-8B2AEBEA2A69 - 4e7b7f2ca6b84b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.cartPresenterObject.getter : Swift.Optional&lt;Upcuisine.ViewToPresenterCartProtocol&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "CE8FC828-AE07-42D3-9D28-8B2AEBEA2A69 - 113fdb4ea3d6b317"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.cartPresenterObject.setter : Swift.Optional&lt;Upcuisine.ViewToPresenterCartProtocol&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "CE8FC828-AE07-42D3-9D28-8B2AEBEA2A69 - 33eb53dc8c57c839"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.cartPresenterObject.modify : Swift.Optional&lt;Upcuisine.ViewToPresenterCartProtocol&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "CE8FC828-AE07-42D3-9D28-8B2AEBEA2A69 - 2adb8f0431b152ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.cartPresenterObject.modify : Swift.Optional&lt;Upcuisine.ViewToPresenterCartProtocol&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "CE8FC828-AE07-42D3-9D28-8B2AEBEA2A69 - 49cd235ea18351e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Upcuisine.FoodDetailViewController"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  uuid = "CE8FC828-AE07-42D3-9D28-8B2AEBEA2A69 - 36b3fa54e95e66b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Upcuisine.FoodDetailViewController&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "508">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E1C2E1C-A670-433B-A69F-85132B663C40"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foodDetail-module/view/FoodDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "addToCartButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7EC43B7-865B-4736-84F5-827D40DB4668"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/view/FoodsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "FoodsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B7EC43B7-865B-4736-84F5-827D40DB4668 - f90aa11e766fe2e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodsViewController.foodsPresenterObject.getter : Swift.Optional&lt;Upcuisine.ViewToPresenterFoodsProtocol&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/view/FoodsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "B7EC43B7-865B-4736-84F5-827D40DB4668 - 4ad005423f2566d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodsViewController.foodsPresenterObject.setter : Swift.Optional&lt;Upcuisine.ViewToPresenterFoodsProtocol&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/view/FoodsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "B7EC43B7-865B-4736-84F5-827D40DB4668 - 21af6d2945477397"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodsViewController.foodsPresenterObject.modify : Swift.Optional&lt;Upcuisine.ViewToPresenterFoodsProtocol&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/view/FoodsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "B7EC43B7-865B-4736-84F5-827D40DB4668 - a07136cde272210f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodsViewController.foodsPresenterObject.modify : Swift.Optional&lt;Upcuisine.ViewToPresenterFoodsProtocol&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/view/FoodsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "B7EC43B7-865B-4736-84F5-827D40DB4668 - 1fbfccbf9ff02ed2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Upcuisine.FoodsViewController"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/view/FoodsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "B7EC43B7-865B-4736-84F5-827D40DB4668 - 6709b63f6f53fe8e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Upcuisine.FoodsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Upcuisine.FoodsViewController&gt;"
+                  moduleName = "Upcuisine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rumeysatan/Documents/GitHub/Upcuisine/Upcuisine/Upcuisine/foods-module/view/FoodsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBE432A7-F69A-48FB-9C5A-CBDAB9EBBD3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/view/FoodsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "FoodsViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E92D0183-7D71-4A0E-82CD-F52829614536"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Upcuisine/foods-module/interactor/FoodsInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "allFoods()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
